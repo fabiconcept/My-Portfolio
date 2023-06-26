@@ -6,6 +6,9 @@ const nextConfig = {
       { loader: "@next/font/google", options: { subsets: ["latin"] } },
     ],
   },
+  images: {
+    domains: ['pickholder.sirv.com'],
+  },
 };
 
 module.exports = nextConfig;

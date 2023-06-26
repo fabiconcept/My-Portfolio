@@ -13,7 +13,7 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-            Hey there! I&apos;m Favour Tochukwu Ajokubi, but you can just call me Favour. I'm a frontend developer hailing from Nigeria, and I'm thrilled to welcome you to my portfolio website.
+            Hey there! I&apos;m Favour Tochukwu Ajokubi, but you can just call me Favour. I&apos;m a frontend developer hailing from Nigeria, and I&apos;m thrilled to welcome you to my portfolio website.
             </p>
           </Reveal>
           <Reveal>
