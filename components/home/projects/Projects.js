@@ -191,7 +191,7 @@ const projects = [
     projectLink: "https://word-asteroid-game.vercel.app/",
     tech: ["React", "CSS", "vercel"],
     description:
-      "This is a simple typing game built with React.js. In this game, bubbles of words fall from the top of the screen and the player must type out the words on the bubbles using their keyboard.",
+      "This is a simple typing game built with React.js. In this game, bubbles of words fall from the top of the screen and the player must type out the words on the bubbles using their keyboard. 💻",
     modalContent: (
       <>
         <p>
@@ -215,11 +215,11 @@ const projects = [
   },
   {
     title: "CoinMarketCap Clone",
-    imgSrc: "https://pickholder.sirv.com/Images/gecko.jpeg",
+    imgSrc: "https://pickholder.sirv.com/Images/gecko.jpg",
     code: "https://github.com/fabiconcept/my_coinmarket",
     projectLink: "https://sparkly-fox-4bd131.netlify.app/",
     tech: ["React", "CSS", "Netlify", "Redux", "React-chartjs-2", "bootstrap", "Fontawesome"],
-    description: "CoinMarketCap Clone is my personal project where I aim to recreate the functionality and design of the popular cryptocurrency market data platform. This project is a testament to my continuous learning and growth as a developer.",
+    description: "CoinMarketCap Clone is my personal project where I aim to recreate the functionality and design of the popular cryptocurrency market data platform.",
     modalContent: (
       <>
         <p>
