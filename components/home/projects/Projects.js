@@ -191,7 +191,7 @@ const projects = [
     projectLink: "https://word-asteroid-game.vercel.app/",
     tech: ["React", "CSS", "vercel"],
     description:
-      "This is a simple typing game built with React.js. In this game, bubbles of words fall from the top of the screen and the player must type out the words on the bubbles using their keyboard. The objective of the game is to shoot as many bubbles as possible before they reach the bottom of the screen.",
+      "This is a simple typing game built with React.js. In this game, bubbles of words fall from the top of the screen and the player must type out the words on the bubbles using their keyboard.",
     modalContent: (
       <>
         <p>
@@ -219,6 +219,7 @@ const projects = [
     code: "https://github.com/fabiconcept/my_coinmarket",
     projectLink: "https://sparkly-fox-4bd131.netlify.app/",
     tech: ["React", "CSS", "Netlify", "Redux", "React-chartjs-2", "bootstrap", "Fontawesome"],
+    description: "CoinMarketCap Clone is my personal project where I aim to recreate the functionality and design of the popular cryptocurrency market data platform. This project is a testament to my continuous learning and growth as a developer.",
     modalContent: (
       <>
         <p>
@@ -245,7 +246,8 @@ const projects = [
     imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_29-6-2023_17473_dapper-puffpuff-ea1e3b.netlify.app.jpeg",
     code: "https://github.com/fabiconcept/ideal-shuffle",
     projectLink: "https://dapper-puffpuff-ea1e3b.netlify.app/",
-    tech: ["React", "CSS", "Netlify", "bootstrap",],
+    tech: ["React", "CSS", "Netlify", "bootstrap"],
+    description: "Ideal-Shuffle is a feature-packed music player web application designed to enhance your listening experience. With a wide range of functionalities, it offers everything you need for seamless music playback.",
     modalContent: (
       <>
         <p>
