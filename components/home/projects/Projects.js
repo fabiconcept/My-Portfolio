@@ -261,7 +261,7 @@ const projects = [
           Its intuitive controls make it easy to navigate through your music library and customize your listening experience.
         </p>
         <p>
-          Whether you're in the mood for a specific song, want to discover new tracks, or simply enjoy a random shuffle of your favorites, 
+          Whether you&apos;re in the mood for a specific song, want to discover new tracks, or simply enjoy a random shuffle of your favorites, 
           Ideal-Shuffle provides a seamless and enjoyable music listening experience.
         </p>
       </>
