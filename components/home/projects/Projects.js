@@ -159,7 +159,7 @@ const projects = [
     title: "OFFRCloud Landing Page",
     imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_26-6-2023_21655_www.offrcloud.com.jpeg",
     code: "https://github.com/fabiconcept/",
-    projectLink: "offrcloud.com",
+    projectLink: "https://offrcloud.com",
     tech: ["React", "CSS", "vercel", "react-hot-toast", "emailjs-com", "bootstrap"],
     description:
       "The OFFRCloud landing page, a meticulously designed and informative website that introduces and highlights the features and benefits of OFFRCloud, a cutting-edge web3 development platform.",
