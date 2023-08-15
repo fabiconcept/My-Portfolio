@@ -131,8 +131,8 @@ const projects = [
   {
     title: "Smart Home",
     imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_26-6-2023_21452_lucky-sable-c6e6c9.netlify.app.jpeg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    code: "https://github.com/fabiconcept/another_landing_page",
+    projectLink: "https://lucky-sable-c6e6c9.netlify.app/",
     tech: ["React", "CSS", "Netlify"],
     description:
       "An elegant and captivating single-page landing page tailored for a fictional tech company, showcasing their unique offerings and captivating visitors. 🌈",
