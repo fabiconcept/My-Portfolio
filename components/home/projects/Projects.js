@@ -71,7 +71,7 @@ const projects = [
           Searching for specific images is a breeze with Photobooth. The search results page offers a navigation bar that hosts the logo and a convenient search bar. Enter your desired search term, and Photobooth will display up to 15 images that match your query, allowing you to quickly find what you&apos;re looking for.
         </p>
         <p>
-          Installation and usage of Photobooth are straightforward. Simply clone the repository, navigate to the project directory, and run "npm install" to get all the necessary dependencies. Don&apos;t forget to update the API key in the code with your personal key for the pixel.com API. Once you&apos;re set up, run &apos;npm run dev&apos; to launch the development server. Open your web browser and visit http://localhost:3000 to experience the app firsthand.
+          Installation and usage of Photobooth are straightforward. Simply clone the repository, navigate to the project directory, and run &quot;npm install&quot; to get all the necessary dependencies. Don&apos;t forget to update the API key in the code with your personal key for the pixel.com API. Once you&apos;re set up, run &apos;npm run dev&apos; to launch the development server. Open your web browser and visit http://localhost:3000 to experience the app firsthand.
         </p>
         <p>
           Photobooth relies on a selection of powerful dependencies that contribute to its seamless performance. These include autoprefixer, eslint, next.js, postcss, React, tailwindcss, and more. These technologies come together to provide a polished and efficient user experience.
