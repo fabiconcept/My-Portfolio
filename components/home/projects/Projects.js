@@ -22,12 +22,12 @@ const projects = [
     imgSrc: "https://pickholder.sirv.com/Images/linktree.jpeg",
     code: "https://github.com/fabiconcept/linktree",
     projectLink: "https://linktree-fabiconcept.vercel.app",
-    description: "This project is my attempt at recreating the amazing system that Linktree has developed. I aim to use Next.js and Tailwind CSS to build the user admin side, including login and sign-up functionality, as well as the user links page. LinkTree is a popular platform that allows users to create a personalized landing page with multiple links to their various social media profiles or websites. By cloning LinkTree, I hope to enhance my skills as a developer and gain a deeper understanding of Next.js and Tailwind CSS.",
     tech: ["Next.js", "Tailwind CSS", "React Beautiful DnD", "React Hot Toast", "bad-words", "crypto-js", "js-cookie", "qrcode.react", "react-confetti", "react-share"],
+    description: "This project is my attempt at recreating the amazing system that Linktree has developed. I aim to use Next.js and Tailwind CSS to build the user admin side, including login and sign-up functionality, as well as the user links page. LinkTree is a popular platform that allows users to create a personalized landing page with multiple links to their various social media profiles or websites. By cloning LinkTree, I hope to enhance my skills as a developer and gain a deeper understanding of Next.js and Tailwind CSS.",
     modalContent: (
       <>
         <p>
-          This project is a dedication to the remarkable system developed by Linktree. With aspirations to replicate their success, I've embarked on the journey to build a similar platform. Utilizing the power of Next.js and the flexibility of Tailwind CSS, my focus lies on crafting the user administration side, complete with robust login and sign-up functionalities, in addition to an efficient user links page.
+          This project is a dedication to the remarkable system developed by Linktree. With aspirations to replicate their success, I&apos;ve embarked on the journey to build a similar platform. Utilizing the power of Next.js and the flexibility of Tailwind CSS, my focus lies on crafting the user administration side, complete with robust login and sign-up functionalities, in addition to an efficient user links page.
         </p>
         <h2>Features</h2>
         <ul>
@@ -57,21 +57,8 @@ const projects = [
     imgSrc: "https://pickholder.sirv.com/Images/photoboot.jpeg",
     code: "https://github.com/fabiconcept/photobooth",
     projectLink: "https://photobooth-alpha.vercel.app/",
-    tech: [
-      "autoprefixer",
-      "eslint",
-      "eslint-config-next",
-      "next",
-      "postcss",
-      "react",
-      "react-dom",
-      "react-hot-toast",
-      "react-icons",
-      "react-masonry-css",
-      "tailwindcss"
-    ],
-    description:
-      "Photobooth is a captivating web application that lets users explore and search for photos. It features a homepage with an infinite scroll gallery of images fetched from the pixel.com API, displayed in a masonry layout. The search results page includes a navigation bar with a logo text and a search bar, providing users with a way to find specific images related to their search term. Installation and usage are easy – simply clone the repository, install dependencies, update the API key, and start the development server to access the app.",
+    tech: ["autoprefixer", "eslint", "eslint-config-next", "next", "postcss", "react", "react-dom", "react-hot-toast", "react-icons", "react-masonry-css", "tailwindcss" ],
+    description: "Photobooth is a captivating web application that lets users explore and search for photos. It features a homepage with an infinite scroll gallery of images fetched from the pixel.com API, displayed in a masonry layout. The search results page includes a navigation bar with a logo text and a search bar, providing users with a way to find specific images related to their search term. Installation and usage are easy – simply clone the repository, install dependencies, update the API key, and start the development server to access the app.", 
     modalContent: (
       <>
         <p>
@@ -81,16 +68,16 @@ const projects = [
           The homepage of Photobooth is a visual feast. It presents a gallery of images sourced from the pixel.com API, and thanks to the innovative infinite scroll feature, you can keep discovering more images as you scroll down. The masonry layout adds a touch of elegance to the arrangement, ensuring each image fits together seamlessly.
         </p>
         <p>
-          Searching for specific images is a breeze with Photobooth. The search results page offers a navigation bar that hosts the logo and a convenient search bar. Enter your desired search term, and Photobooth will display up to 15 images that match your query, allowing you to quickly find what you're looking for.
+          Searching for specific images is a breeze with Photobooth. The search results page offers a navigation bar that hosts the logo and a convenient search bar. Enter your desired search term, and Photobooth will display up to 15 images that match your query, allowing you to quickly find what you&apos;re looking for.
         </p>
         <p>
-          Installation and usage of Photobooth are straightforward. Simply clone the repository, navigate to the project directory, and run 'npm install' to get all the necessary dependencies. Don't forget to update the API key in the code with your personal key for the pixel.com API. Once you're set up, run 'npm run dev' to launch the development server. Open your web browser and visit http://localhost:3000 to experience the app firsthand.
+          Installation and usage of Photobooth are straightforward. Simply clone the repository, navigate to the project directory, and run "npm install" to get all the necessary dependencies. Don&apos;t forget to update the API key in the code with your personal key for the pixel.com API. Once you&apos;re set up, run &apos;npm run dev&apos; to launch the development server. Open your web browser and visit http://localhost:3000 to experience the app firsthand.
         </p>
         <p>
           Photobooth relies on a selection of powerful dependencies that contribute to its seamless performance. These include autoprefixer, eslint, next.js, postcss, React, tailwindcss, and more. These technologies come together to provide a polished and efficient user experience.
         </p>
         <p>
-          Whether you're a photography enthusiast or just want to browse mesmerizing images, Photobooth is your gateway to a world of visual delight. Don't hesitate to immerse yourself in this captivating web app and explore the countless images it has to offer.
+          Whether you&apos;re a photography enthusiast or just want to browse mesmerizing images, Photobooth is your gateway to a world of visual delight. Don&apos;t hesitate to immerse yourself in this captivating web app and explore the countless images it has to offer.
         </p>
       </>
     ),
@@ -102,8 +89,7 @@ const projects = [
     code: "https://github.com/fabiconcept/photo_filter",
     projectLink: "https://62ecf64f488b4a47c5a06a09--gregarious-boba-a87216.netlify.app/",
     tech: ["React", "CSS", "Vanilla Javascript"],
-    description:
-      "A user-friendly web application that lets you add basic filters, color correct, rotation to your photos instantly.",
+    description: "A user-friendly web application that lets you add basic filters, color correct, rotation to your photos instantly.",
     modalContent: (
       <>
         <p>
