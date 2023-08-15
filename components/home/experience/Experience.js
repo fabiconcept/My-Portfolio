@@ -18,15 +18,7 @@ const experience = [
     position: "Blockchain Developer",
     time: "2022 - Present",
     location: "Atlanta, US",
-    description: <>
-      <p>During my time at OffrCloud, I held the position of Lone Remote Blockchain Developer. I played a pivotal role in conceiving and executing a state-of-the-art FinTech Dapp System. My responsibilities extended beyond coding, as I also led the creation of the company&apos;s engaging Landing Page, serving as the digital ambassador for our innovative solutions.</p>
-
-      <p>A major focus of my role involved the creation of a Security Dividend Token on the ERC20 standard. This required implementing robust security protocols to ensure its integrity. Additionally, I crafted a smart contract for token sales, streamlining the complexities of the sales process.</p>
-
-      <p>Furthermore, I successfully designed and deployed a dividend management smart contract. This solution enabled the transparent and efficient distribution of dividends to relevant stakeholders.</p>
-
-      <p>My tenure at OffrCloud deepened my understanding of the intricacies of blockchain technology and underscored the critical role secure, transparent, and efficient financial systems play in modern business landscapes.</p>
-    </>,
+    description: "During my time at OffrCloud, I led the development of a cutting-edge FinTech Dapp System as a Lone Remote Blockchain Developer. I not only coded but also created the captivating Landing Page, representing our innovation. My role included designing and securing an ERC20 Security Dividend Token, managing token sales, and deploying a transparent dividend distribution smart contract. These experiences deepened my blockchain knowledge and emphasized the importance of secure financial systems.",
     tech: [
       "React",
       "Firebase",
