@@ -23,7 +23,7 @@ const projects = [
     code: "https://github.com/fabiconcept/linktree",
     projectLink: "https://linktree-fabiconcept.vercel.app",
     tech: ["Next.js", "Tailwind CSS", "React Beautiful DnD", "React Hot Toast", "bad-words", "crypto-js", "js-cookie", "qrcode.react", "react-confetti", "react-share"],
-    description: "This project is my attempt at recreating the amazing system that Linktree has developed. I aim to use Next.js and Tailwind CSS to build the user admin side, including login and sign-up functionality, as well as the user links page. LinkTree is a popular platform that allows users to create a personalized landing page with multiple links to their various social media profiles or websites. By cloning LinkTree, I hope to enhance my skills as a developer and gain a deeper understanding of Next.js and Tailwind CSS.",
+    description: "I'm recreating Linktree using Next.js and Tailwind CSS for user admin features. Linktree lets users create personal link pages. This builds my skills in Next.js and Tailwind CSS.",
     modalContent: (
       <>
         <p>
@@ -58,7 +58,7 @@ const projects = [
     code: "https://github.com/fabiconcept/photobooth",
     projectLink: "https://photobooth-alpha.vercel.app/",
     tech: ["autoprefixer", "eslint", "eslint-config-next", "next", "postcss", "react", "react-dom", "react-hot-toast", "react-icons", "react-masonry-css", "tailwindcss" ],
-    description: "Photobooth is a captivating web application that lets users explore and search for photos. It features a homepage with an infinite scroll gallery of images fetched from the pixel.com API, displayed in a masonry layout. The search results page includes a navigation bar with a logo text and a search bar, providing users with a way to find specific images related to their search term. Installation and usage are easy – simply clone the repository, install dependencies, update the API key, and start the development server to access the app.", 
+    description: "Photobooth is a web app for exploring photos. Infinite scroll galleries from pixel.com API on the homepage, and a search page with a logo and search bar. Clone, install, update API key, and start the server to use.", 
     modalContent: (
       <>
         <p>
