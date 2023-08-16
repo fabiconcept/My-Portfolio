@@ -31,23 +31,23 @@ const projects = [
         </p>
         <h2>Features</h2>
         <ul>
-          <li>User authentication: Enabling a secure login and sign-up mechanism for users.</li>
-          <li>User admin dashboard: Crafting an intuitive interface for users to effortlessly manage their links and tailor their profiles to their liking.</li>
-          <li>User links page: Establishing a dedicated space where users can seamlessly add, edit, and organize their links, each with personalized titles and descriptions.</li>
+          <li className="pl-2">User authentication: Enabling a secure login and sign-up mechanism for users.</li>
+          <li className="pl-2">User admin dashboard: Crafting an intuitive interface for users to effortlessly manage their links and tailor their profiles to their liking.</li>
+          <li className="pl-2">User links page: Establishing a dedicated space where users can seamlessly add, edit, and organize their links, each with personalized titles and descriptions.</li>
         </ul>
         <h2>Technologies Used</h2>
         <ul>
-          <li>Next.js: A robust React framework designed for building server-rendered applications.</li>
-          <li>Tailwind CSS: A dynamic CSS framework that expedites UI development through its utility-first approach.</li>
-          <li>React Beautiful DnD: An indispensable library for implementing smooth drag and drop interactions within React applications.</li>
-          <li>React Hot Toast: A notification library designed to facilitate toast-style notifications within React projects.</li>
-          <li>React Icons: A collection of iconic React components that facilitate easy integration of popular icons.</li>
-          <li>bad-words: Utilized to discreetly filter out sensitive words on the Links Page, employed only when no warnings are raised.</li>
-          <li>crypto-js: Employed for robust encryption of my Cookie Session data.</li>
-          <li>js-cookie: Leveraged for simplifying the creation, retrieval, deletion, and editing of cookie data.</li>
-          <li>qrcode.react: Instrumental in generating unique QR codes tailored to individual users.</li>
-          <li>react-confetti: A creative touch, adding a confetti-themed background to enhance the visual experience.</li>
-          <li>react-share: Facilitating effortless sharing of user links across various social media platforms.</li>
+          <li className="pl-2">Next.js: A robust React framework designed for building server-rendered applications.</li>
+          <li className="pl-2">Tailwind CSS: A dynamic CSS framework that expedites UI development through its utility-first approach.</li>
+          <li className="pl-2">React Beautiful DnD: An indispensable library for implementing smooth drag and drop interactions within React applications.</li>
+          <li className="pl-2">React Hot Toast: A notification library designed to facilitate toast-style notifications within React projects.</li>
+          <li className="pl-2">React Icons: A collection of iconic React components that facilitate easy integration of popular icons.</li>
+          <li className="pl-2">bad-words: Utilized to discreetly filter out sensitive words on the Links Page, employed only when no warnings are raised.</li>
+          <li className="pl-2">crypto-js: Employed for robust encryption of my Cookie Session data.</li>
+          <li className="pl-2">js-cookie: Leveraged for simplifying the creation, retrieval, deletion, and editing of cookie data.</li>
+          <li className="pl-2">qrcode.react: Instrumental in generating unique QR codes tailored to individual users.</li>
+          <li className="pl-2">react-confetti: A creative touch, adding a confetti-themed background to enhance the visual experience.</li>
+          <li className="pl-2">react-share: Facilitating effortless sharing of user links across various social media platforms.</li>
         </ul>
       </>
     )
@@ -69,12 +69,6 @@ const projects = [
         </p>
         <p>
           Searching for specific images is a breeze with Photobooth. The search results page offers a navigation bar that hosts the logo and a convenient search bar. Enter your desired search term, and Photobooth will display up to 15 images that match your query, allowing you to quickly find what you&apos;re looking for.
-        </p>
-        <p>
-          Installation and usage of Photobooth are straightforward. Simply clone the repository, navigate to the project directory, and run &quot;npm install&quot; to get all the necessary dependencies. Don&apos;t forget to update the API key in the code with your personal key for the pixel.com API. Once you&apos;re set up, run &apos;npm run dev&apos; to launch the development server. Open your web browser and visit http://localhost:3000 to experience the app firsthand.
-        </p>
-        <p>
-          Photobooth relies on a selection of powerful dependencies that contribute to its seamless performance. These include autoprefixer, eslint, next.js, postcss, React, tailwindcss, and more. These technologies come together to provide a polished and efficient user experience.
         </p>
         <p>
           Whether you&apos;re a photography enthusiast or just want to browse mesmerizing images, Photobooth is your gateway to a world of visual delight. Don&apos;t hesitate to immerse yourself in this captivating web app and explore the countless images it has to offer.
