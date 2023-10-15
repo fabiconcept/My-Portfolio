@@ -34,4 +34,17 @@ const experience = [
       "emailjs-com",
     ],
   },
+  {
+    title: "Digital Skills Empowerment Program",
+    position: "Frontend Development Tutor",
+    time: "Sept. 2023 - Present",
+    location: "Lagos, Nigeria",
+    description: "As a Frontend Development Tutor at DSEP, I've had the privilege of mentoring and guiding aspiring developers on their journey to mastering the fundamentals of web development. My role primarily focuses on teaching beginners the essential building blocks of web development, including HTML, CSS, and JavaScript. I've had the opportunity to nurture their potential and cultivate their passion for creating web applications and sites.",
+    tech: [
+      "HTML",
+      "CSS",
+      "Git",
+      "Javascript",
+    ],
+  },
 ];
