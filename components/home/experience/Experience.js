@@ -35,7 +35,7 @@ const experience = [
     ],
   },
   {
-    title: "Digital Skills Empowerment Program",
+    title: "Digital Skills Empowerment Program (DSEP)",
     position: "Frontend Development Tutor",
     time: "Sept. 2023 - Present",
     location: "Lagos, Nigeria",
@@ -45,6 +45,19 @@ const experience = [
       "CSS",
       "Git",
       "Javascript",
+    ],
+  },
+  {
+    title: "Team Soft 6060",
+    position: "Frontend Developer",
+    time: "June 2023 - Present",
+    location: "Startup, Nigeria",
+    description: "At Team Soft 6060, I had the privilege of working as a Frontend Developer in a dynamic environment that focused on cutting-edge SaaS software solutions. While I'm bound by a non-disclosure agreement, I collaborated closely with a diverse and talented team that included Frontend and Backend Developers, AI Engineers, Data Analysts, and UI/UX Designers.",
+    tech: [
+      "Next.js",
+      "Tailwind",
+      "Git",
+      "MongoDB",
     ],
   },
 ];
