@@ -102,31 +102,6 @@ const projects = [
 
   },    
   {
-    title: "filter.app",
-    imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_26-6-2023_298_62ecf64f488b4a47c5a06a09--gregarious-boba-a87216.netlify.app.jpeg",
-    code: "https://github.com/fabiconcept/photo_filter",
-    projectLink: "https://62ecf64f488b4a47c5a06a09--gregarious-boba-a87216.netlify.app/",
-    tech: ["React", "CSS", "Vanilla Javascript"],
-    description: "A user-friendly web application that lets you add basic filters, color correct, rotation to your photos instantly.",
-    modalContent: (
-      <>
-        <p>
-          Filter.app is a captivating web application that allows you to add stunning filters to your photos in real-time.
-          I designed and built this app from scratch, pouring my heart and soul into its creation.
-        </p>
-        <p>
-          The frontend of Filter.app is powered by vanilla JavaScript and React, making it a seamless and interactive user experience.
-          With a simple and intuitive user interface, Filter.app lets you effortlessly enhance your photos with various filters,
-          bringing out their full potential and adding an artistic touch.
-        </p>
-        <p>
-          Whether you&apos;re a photography enthusiast or simply looking to add some flair to your social media posts,
-          Filter.app is the perfect tool to transform your ordinary photos into visually striking masterpieces.
-        </p>
-      </>
-    ),
-  },
-  {
     title: "OFFRCloud Landing Page",
     imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_26-6-2023_21655_www.offrcloud.com.jpeg",
     code: "https://github.com/fabiconcept/",
@@ -263,6 +238,31 @@ const projects = [
         </p>
         <p>
           Experience the convenience of Weatherly and make informed decisions based on the current and forecasted weather conditions.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "filter.app",
+    imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_26-6-2023_298_62ecf64f488b4a47c5a06a09--gregarious-boba-a87216.netlify.app.jpeg",
+    code: "https://github.com/fabiconcept/photo_filter",
+    projectLink: "https://62ecf64f488b4a47c5a06a09--gregarious-boba-a87216.netlify.app/",
+    tech: ["React", "CSS", "Vanilla Javascript"],
+    description: "A user-friendly web application that lets you add basic filters, color correct, rotation to your photos instantly.",
+    modalContent: (
+      <>
+        <p>
+          Filter.app is a captivating web application that allows you to add stunning filters to your photos in real-time.
+          I designed and built this app from scratch, pouring my heart and soul into its creation.
+        </p>
+        <p>
+          The frontend of Filter.app is powered by vanilla JavaScript and React, making it a seamless and interactive user experience.
+          With a simple and intuitive user interface, Filter.app lets you effortlessly enhance your photos with various filters,
+          bringing out their full potential and adding an artistic touch.
+        </p>
+        <p>
+          Whether you&apos;re a photography enthusiast or simply looking to add some flair to your social media posts,
+          Filter.app is the perfect tool to transform your ordinary photos into visually striking masterpieces.
         </p>
       </>
     ),
