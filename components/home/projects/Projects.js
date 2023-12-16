@@ -33,7 +33,7 @@ const projects = [
           The challenges faced during the development process were overcome with the integration of cutting-edge technologies. The use of Next.js ensures a performant and responsive user interface, while Tailwind and CSS contribute to a visually appealing design.
         </p>
         <p>
-          The website incorporates Google Maps for a location-based perspective and utilizes EmailJS for efficient communication. This tech stack not only elevates the user experience but also aligns with Wilkinson & Regis's commitment to innovation in real estate services.
+          The website incorporates Google Maps for a location-based perspective and utilizes EmailJS for efficient communication. This tech stack not only elevates the user experience but also aligns with Wilkinson & Regis&apos;s commitment to innovation in real estate services.
         </p>
         <p>
           Wilkinson & Regis, with over 28 years of experience, is a family-owned and operated real estate investment firm. The website reflects their dedication to providing a hassle-free selling experience and serves as a valuable tool in achieving their real estate goals.
