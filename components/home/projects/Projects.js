@@ -18,6 +18,30 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "Wilkinson & Regis Website Project",
+    imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_16-12-2023_14436_localhost.jpeg",
+    code: "https://github.com/WilkinsonandRegis/landing-page",
+    projectLink: "http://wilkinsonregis.com/",
+    tech: "nextjs, css, tailwind, react-icons, google-map, emailjs",
+    description: "The Wilkinson & Regis Website Project involved the development of a modern and user-friendly landing page. Leveraging technologies such as Next.js, CSS, Tailwind, React Icons, Google Maps integration, and EmailJS, the website serves as a crucial online presence for Wilkinson & Regis.",
+    modalContent: (
+      <>
+        <p>
+          The Wilkinson & Regis Website Project plays a pivotal role in enhancing the online visibility of the company. It provides visitors with a seamless and informative experience, showcasing the services offered by Wilkinson & Regis in buying houses and apartment complexes.
+        </p>
+        <p>
+          The challenges faced during the development process were overcome with the integration of cutting-edge technologies. The use of Next.js ensures a performant and responsive user interface, while Tailwind and CSS contribute to a visually appealing design.
+        </p>
+        <p>
+          The website incorporates Google Maps for a location-based perspective and utilizes EmailJS for efficient communication. This tech stack not only elevates the user experience but also aligns with Wilkinson & Regis's commitment to innovation in real estate services.
+        </p>
+        <p>
+          Wilkinson & Regis, with over 28 years of experience, is a family-owned and operated real estate investment firm. The website reflects their dedication to providing a hassle-free selling experience and serves as a valuable tool in achieving their real estate goals.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "Linktree Clone",
     imgSrc: "https://pickholder.sirv.com/Images/linktree.jpeg",
     code: "https://github.com/fabiconcept/linktree",
