@@ -23,14 +23,13 @@ const projects = [
     code: "https://github.com/fabiconcept/github-search-app",
     projectLink: "https://github-search-app-chi.vercel.app",
     tech: [
-      "@reduxjs/toolkit",
+      "typescript",
+      "react-redux",
       "next",
-      "nextjs-toploader",
       "octokit",
-      "react",
-      "react-dom",
       "react-icons",
-      "react-redux"
+      "nextjs-toploader",
+      "@reduxjs/toolkit",
     ],
     description: "GitHub Repository Explorer is a web application developed with TypeScript and Next.js, allowing users to search for GitHub repositories, view details, and explore repositories based on various criteria. This project provides a modern and dynamic user interface.",
     modalContent: (
