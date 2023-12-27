@@ -18,6 +18,40 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "GitHub Repository Explorer",
+    imgSrc: "https://pickholder.sirv.com/Images/github-search.jpg",
+    code: "https://github.com/fabiconcept/github-search-app",
+    projectLink: "https://github-search-app-chi.vercel.app",
+    tech: [
+      "@reduxjs/toolkit",
+      "next",
+      "nextjs-toploader",
+      "octokit",
+      "react",
+      "react-dom",
+      "react-icons",
+      "react-redux"
+    ],
+    description: "GitHub Repository Explorer is a web application developed with TypeScript and Next.js, allowing users to search for GitHub repositories, view details, and explore repositories based on various criteria. This project provides a modern and dynamic user interface.",
+    modalContent: (
+      <>
+        <p>
+          GitHub Repository Explorer is an exciting web application developed with TypeScript and Next.js, offering users a seamless experience in exploring GitHub repositories. The project was born out of the need for a modern, dynamic, and user-friendly interface to interact with GitHub repositories.
+        </p>
+        <p>
+          With a focus on simplicity and efficiency, this application allows users to effortlessly search for repositories, view detailed information, and explore based on various criteria. The clean and responsive design ensures a delightful experience on a range of devices.
+        </p>
+        <h2>Why GitHub Repository Explorer?</h2>
+        <p>
+          The inspiration behind this project lies in providing developers and GitHub enthusiasts with a tool that simplifies the process of discovering and understanding repositories. Whether you&apos;re looking for specific projects, exploring trending repositories, or just curious about what&apos;s out there, GitHub Repository Explorer is your go-to solution.
+        </p>
+        <p>
+          By combining the power of TypeScript, Next.js, and the GitHub API, this application delivers a robust and efficient way to interact with the vast world of GitHub. It&apos;s not just a tool; it&apos;s a gateway to a richer and more streamlined GitHub exploration experience.
+        </p>
+      </>
+    ),
+  },  
+  {
     title: "Wilkinson & Regis Website Project",
     imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_16-12-2023_14436_localhost.jpeg",
     code: "https://github.com/WilkinsonandRegis/landing-page",
