@@ -19,7 +19,7 @@ export const Projects = () => {
 const projects = [
   {
     title: "GitHub Repository Explorer",
-    imgSrc: "https://pickholder.sirv.com/Images/github-search.jpg",
+    imgSrc: "https://pickholder.sirv.com/Images/github.jpg",
     code: "https://github.com/fabiconcept/github-search-app",
     projectLink: "https://github-search-app-chi.vercel.app",
     tech: [
