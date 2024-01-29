@@ -26,6 +26,7 @@ export const Stats = () => {
             <span className="chip">Tailwind</span>
             <span className="chip">Bootstrap</span>
             <span className="chip">Solidity</span>
+            <span className="chip">Next Rest API</span>
             <span className="chip">Remix</span>
           </div>
         </div>
@@ -42,6 +43,7 @@ export const Stats = () => {
             <span className="chip">Photoshop</span>
             <span className="chip">Netlify</span>
             <span className="chip">Web3 JS</span>
+            <span className="chip">MongoDB</span>
           </div>
         </div>
       </Reveal>
