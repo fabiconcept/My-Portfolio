@@ -14,9 +14,25 @@ export const Experience = () => {
 
 const experience = [
   {
+    title: "Cold Hubs Limited",
+    position: "Backend Developer",
+    time: "Aug. 2024 - Present",
+    location: "Nigeria",
+    description: "As a Backend Developer at Cold Hubs Limited, I am responsible for building and maintaining robust backend systems that support the company's cold storage and logistics solutions. I work closely with the team to implement efficient APIs and handle the business logic for features like cold storage bookings, logistics services, and user management. My role involves ensuring data integrity, system scalability, and seamless integration with the frontend. I also contribute to optimizing the company's internal workflows through the development of custom backend solutions.",
+    tech: [
+      "Laravel",
+      "PHP",
+      "MySQL",
+      "Git",
+      "GitHub",
+      "DigitalOcean",
+      "Mail Gun"
+    ]
+  },
+  {
     title: "OffrCloud",
-    position: "Blockchain Developer",
-    time: "2022 - Present",
+    position: "Part-Time Remote Blockchain Developer",
+    time: "Dec. 2022 - July. 2023",
     location: "Atlanta, US",
     description: "During my time at OffrCloud, I led the development of a cutting-edge FinTech Dapp System as a Lone Remote Blockchain Developer. I not only coded but also created the captivating Landing Page, representing our innovation. My role included designing and securing an ERC20 Security Dividend Token, managing token sales, and deploying a transparent dividend distribution smart contract. These experiences deepened my blockchain knowledge and emphasized the importance of secure financial systems.",
     tech: [
