@@ -30,7 +30,7 @@ const projects = [
     modalContent: (
       <>
         <p>
-          MonoClient is a TypeScript package that offers a simple and efficient solution for interacting with the Mono API. Whether you're managing customer data, retrieving bank lists, or handling other API operations, MonoClient ensures a seamless and intuitive experience.
+          MonoClient is a TypeScript package that offers a simple and efficient solution for interacting with the Mono API. Whether you&apos;re managing customer data, retrieving bank lists, or handling other API operations, MonoClient ensures a seamless and intuitive experience.
         </p>
         <p>
           With its easy integration process and intuitive methods, this package allows developers to connect with the Mono API quickly and efficiently. The package is designed to make the development process smoother by leveraging TypeScript for type safety and better overall reliability.
@@ -66,17 +66,17 @@ const projects = [
     modalContent: (
       <>
         <p>
-          At AmeriCare, we believe that care is more than a service; it's a heartfelt commitment to improving the lives of the elderly and medically fragile children. Founded in 2021, our journey began with a simple yet profound mission—to bring comfort, healing, and compassion to those who need it most.
+          At AmeriCare, we believe that care is more than a service; it&apos;s a heartfelt commitment to improving the lives of the elderly and medically fragile children. Founded in 2021, our journey began with a simple yet profound mission—to bring comfort, healing, and compassion to those who need it most.
         </p>
         <p>
-          Our founder, Calvin Wilkinson, grew up in Atlanta, a city known for its vibrant communities and warm embrace. He learned early the power of healing and the significance of community. Mr. Wilkinson pursued a degree in Biology from the College of William and Mary, followed by a Master's in Public Health from Mercer University, where he encountered stories that would shape AmeriCare.
+          Our founder, Calvin Wilkinson, grew up in Atlanta, a city known for its vibrant communities and warm embrace. He learned early the power of healing and the significance of community. Mr. Wilkinson pursued a degree in Biology from the College of William and Mary, followed by a Master&apos;s in Public Health from Mercer University, where he encountered stories that would shape AmeriCare.
         </p>
         <h2>Why AmeriCare?</h2>
         <p>
-          AmeriCare's mission is rooted in providing compassionate in-home care to the elderly and medically fragile children. We believe in delivering comfort and healing where it's needed most, ensuring that every individual receives the care they deserve.
+          AmeriCare&apos;s mission is rooted in providing compassionate in-home care to the elderly and medically fragile children. We believe in delivering comfort and healing where it&apos;s needed most, ensuring that every individual receives the care they deserve.
         </p>
         <p>
-          By focusing on the personal stories that shaped our founder's journey, AmeriCare stands as a beacon of hope and compassion in the healthcare industry, offering in-home services to those who need them the most.
+          By focusing on the personal stories that shaped our founder&apos;s journey, AmeriCare stands as a beacon of hope and compassion in the healthcare industry, offering in-home services to those who need them the most.
         </p>
       </>
     ),
@@ -97,7 +97,7 @@ const projects = [
     modalContent: (
       <>
         <p>
-          Goldwater Home Loans Experts is dedicated to providing personalized and transparent home financing solutions. Whether you're a first-time homebuyer or exploring refinancing options, our platform offers tailored loan programs to meet your unique financial needs.
+          Goldwater Home Loans Experts is dedicated to providing personalized and transparent home financing solutions. Whether you&apos;re a first-time homebuyer or exploring refinancing options, our platform offers tailored loan programs to meet your unique financial needs.
         </p>
         <p>
           With a team of seasoned experts, we strive to make the home financing process seamless, providing clear guidance and support at every step. Our commitment to transparency ensures that you fully understand each stage of your homeownership journey.
