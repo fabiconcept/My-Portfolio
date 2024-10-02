@@ -30,6 +30,19 @@ const experience = [
     ]
   },
   {
+    title: "Digital Skills Empowerment Program (DSEP)",
+    position: "Frontend Development Tutor",
+    time: "Sept. 2023 - Aug. 2024",
+    location: "Lagos, Nigeria",
+    description: "As a Frontend Development Tutor at DSEP, I've had the privilege of mentoring and guiding aspiring developers on their journey to mastering the fundamentals of web development. My role primarily focuses on teaching beginners the essential building blocks of web development, including HTML, CSS, and JavaScript. I've had the opportunity to nurture their potential and cultivate their passion for creating web applications and sites.",
+    tech: [
+      "HTML",
+      "CSS",
+      "Git",
+      "Javascript",
+    ],
+  },
+  {
     title: "OffrCloud",
     position: "Part-Time Remote Blockchain Developer",
     time: "Dec. 2022 - July. 2023",
@@ -48,32 +61,6 @@ const experience = [
       "Vercel",
       "Bootstrap",
       "emailjs-com",
-    ],
-  },
-  {
-    title: "Digital Skills Empowerment Program (DSEP)",
-    position: "Frontend Development Tutor",
-    time: "Sept. 2023 - Present",
-    location: "Lagos, Nigeria",
-    description: "As a Frontend Development Tutor at DSEP, I've had the privilege of mentoring and guiding aspiring developers on their journey to mastering the fundamentals of web development. My role primarily focuses on teaching beginners the essential building blocks of web development, including HTML, CSS, and JavaScript. I've had the opportunity to nurture their potential and cultivate their passion for creating web applications and sites.",
-    tech: [
-      "HTML",
-      "CSS",
-      "Git",
-      "Javascript",
-    ],
-  },
-  {
-    title: "Team Soft 6060",
-    position: "Frontend Developer",
-    time: "June 2023 - Present",
-    location: "Startup, Nigeria",
-    description: "At Team Soft 6060, I had the privilege of working as a Frontend Developer in a dynamic environment that focused on cutting-edge SaaS software solutions. While I'm bound by a non-disclosure agreement, I collaborated closely with a diverse and talented team that included Frontend and Backend Developers, AI Engineers, Data Analysts, and UI/UX Designers.",
-    tech: [
-      "Next.js",
-      "Tailwind",
-      "Git",
-      "MongoDB",
     ],
   },
 ];
