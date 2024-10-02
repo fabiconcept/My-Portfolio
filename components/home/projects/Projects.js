@@ -18,6 +18,103 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "MonoClient",
+    imgSrc: "https://pickholder.sirv.com/Images/mono.png",
+    code: "https://github.com/fabiconcept/mono-client-package",
+    projectLink: "https://www.npmjs.com/package/mono-client",
+    tech: [
+      "typescript",
+      "npm-package",
+    ],
+    description: "MonoClient is a TypeScript package that provides a simple and intuitive way to interact with the Mono API. It streamlines managing customer data, retrieving bank lists, and performing other API operations with minimal setup and built-in error handling.",
+    modalContent: (
+      <>
+        <p>
+          MonoClient is a TypeScript package that offers a simple and efficient solution for interacting with the Mono API. Whether you're managing customer data, retrieving bank lists, or handling other API operations, MonoClient ensures a seamless and intuitive experience.
+        </p>
+        <p>
+          With its easy integration process and intuitive methods, this package allows developers to connect with the Mono API quickly and efficiently. The package is designed to make the development process smoother by leveraging TypeScript for type safety and better overall reliability.
+        </p>
+        <h2>Features</h2>
+        <ul>
+          <li>Easy Integration: Connect to the Mono API with minimal setup.</li>
+          <li>Intuitive Methods: Access common API endpoints with clearly defined methods.</li>
+          <li>TypeScript Support: Take advantage of TypeScript for type safety and an improved development experience.</li>
+          <li>Error Handling: Robust error handling ensures smooth API interactions.</li>
+        </ul>
+        <p>
+          By combining the strengths of TypeScript and the Mono API, MonoClient offers a powerful tool for developers to manage API operations effectively and efficiently.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "AmeriCare",
+    imgSrc: "https://pickholder.sirv.com/Images/americare.png",
+    code: "https://github.com/fabiconcept/americare",
+    projectLink: "https://www.americareinhome.com/",
+    tech: [
+      "Typescript",
+      "Tailwind",
+      "React",
+      "Next.js",
+      "nextjs-toploader",
+      "framer-motion",
+      "swiper"
+    ],
+    description: "AmeriCare is a compassionate in-home care service founded in 2021, dedicated to improving the lives of the elderly and medically fragile children. With a heartfelt commitment to comfort and healing, AmeriCare serves the community with compassion and care.",
+    modalContent: (
+      <>
+        <p>
+          At AmeriCare, we believe that care is more than a service; it's a heartfelt commitment to improving the lives of the elderly and medically fragile children. Founded in 2021, our journey began with a simple yet profound mission—to bring comfort, healing, and compassion to those who need it most.
+        </p>
+        <p>
+          Our founder, Calvin Wilkinson, grew up in Atlanta, a city known for its vibrant communities and warm embrace. He learned early the power of healing and the significance of community. Mr. Wilkinson pursued a degree in Biology from the College of William and Mary, followed by a Master's in Public Health from Mercer University, where he encountered stories that would shape AmeriCare.
+        </p>
+        <h2>Why AmeriCare?</h2>
+        <p>
+          AmeriCare's mission is rooted in providing compassionate in-home care to the elderly and medically fragile children. We believe in delivering comfort and healing where it's needed most, ensuring that every individual receives the care they deserve.
+        </p>
+        <p>
+          By focusing on the personal stories that shaped our founder's journey, AmeriCare stands as a beacon of hope and compassion in the healthcare industry, offering in-home services to those who need them the most.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Goldwater Home Loans Experts",
+    imgSrc: "https://pickholder.sirv.com/Images/goldwater.png",
+    code: "https://github.com/fabiconcept/golden-gates",
+    projectLink: "https://www.goldwaterhomeloans.com/",
+    tech: [
+      "Typescript",
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Framer Motion",
+    ],
+    description: "Goldwater Home Loans Experts is a comprehensive platform offering tailored home financing solutions. With a focus on transparency, expertise, and personalized service, Goldwater helps clients navigate the homeownership journey with confidence.",
+    modalContent: (
+      <>
+        <p>
+          Goldwater Home Loans Experts is dedicated to providing personalized and transparent home financing solutions. Whether you're a first-time homebuyer or exploring refinancing options, our platform offers tailored loan programs to meet your unique financial needs.
+        </p>
+        <p>
+          With a team of seasoned experts, we strive to make the home financing process seamless, providing clear guidance and support at every step. Our commitment to transparency ensures that you fully understand each stage of your homeownership journey.
+        </p>
+        <h2>Key Features</h2>
+        <ul>
+          <li>Tailored Loan Programs: Choose from a variety of loan options customized for your financial situation.</li>
+          <li>Expert Guidance: Work with experienced professionals who provide personalized support throughout the process.</li>
+          <li>Transparent Processes: Enjoy clear communication and a straightforward approach to home financing.</li>
+        </ul>
+        <p>
+          Goldwater Home Loans Experts is your trusted partner in securing the ideal home loan, offering a smooth, expert-driven process to help you achieve your homeownership goals.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "GitHub Repository Explorer",
     imgSrc: "https://pickholder.sirv.com/Images/github.jpg",
     code: "https://github.com/fabiconcept/github-search-app",
