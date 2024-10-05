@@ -348,7 +348,7 @@ const projects = [
     title: "Weatherly",
     imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_26-6-2023_21059_62d61b314a395b2bdbfa8119--venerable-nougat-d75b0a.netlify.app.jpeg",
     code: "https://github.com/fabiconcept/react-weather-app",
-    projectLink: "https://62d61b314a395b2bdbfa8119--venerable-nougat-d75b0a.netlify.app/",
+    projectLink: "https://weather.fabiconcept.online",
     tech: ["React", "CSS", "Netlify", "Redux", "RestAPI"],
     description:
       "An elegant and captivating single-page landing page tailored for a fictional tech company, showcasing their unique offerings and captivating visitors. 🌍",
