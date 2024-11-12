@@ -18,22 +18,22 @@ export const About = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-            I currently work for OFFRCloud as a web3 developer, where I&apos;ve built their landing page, DApp system, and smart contracts for tokens, token sales, and dividend management. While I&apos;m not an artist like Bob, I do have a passion for crafting beautiful digital experiences.
+              Currently, I&apos;m a Backend Developer at Cold Hubs, where I contribute to innovative technology solutions that support sustainable cold storage and logistics in Nigeria. With a strong foundation in both frontend and backend development, I&apos;ve also gained industry experience in Banking and Finance with CashGo as a Next.js Backend Developer and Senior Frontend Developer, as well as in Education Technology with the American International School of Medicine (AISM), where I enhanced their web presence as a Web Developer on a contract basis.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-            I believe in the power of merging code and design seamlessly. With my background in graphic design, I bring a strong sense of aesthetics and user-centered design principles to my development projects.
+              As part of my commitment to open&mdash;source development, I recently released my first npm package, Mono API, designed to simplify interactions with Mono&apos;s financial API for developers working on financial applications.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-            Beyond my professional endeavors, I find inspiration in art and enjoy exploring my creative side through graphic design. I&apos;m always on the lookout for exciting projects where I can blend my love for code with my eye for design.
+              With a background in graphic design, I aim to merge code and aesthetics to build digital products that are both highly functional and visually compelling. My expertise includes JavaScript, TypeScript, React, Next.js, and Solidity, and I&apos;m always on the lookout for exciting projects where I can apply my skills to make a meaningful impact.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-            If you think there&apos;s an opportunity where my frontend development skills and passion for aesthetics could make an impact, I&apos;d love to connect with you.
+              If you&apos;re looking for a developer with a well&mdash;rounded skill set and a passion for crafting exceptional digital experiences, let&apos;s connect!
               🔗
             </p>
           </Reveal>
