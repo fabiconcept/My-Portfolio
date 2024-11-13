@@ -28,6 +28,10 @@ export const Stats = () => {
             <span className="chip">Solidity</span>
             <span className="chip">Next Rest API</span>
             <span className="chip">Remix</span>
+            <span className="chip">MongoDB</span>
+            <span className="chip">Figma</span>
+            <span className="chip">Digital Ocean</span>
+            <span className="chip">Laravel</span>
           </div>
         </div>
       </Reveal>
@@ -43,7 +47,6 @@ export const Stats = () => {
             <span className="chip">Photoshop</span>
             <span className="chip">Netlify</span>
             <span className="chip">Web3 JS</span>
-            <span className="chip">MongoDB</span>
           </div>
         </div>
       </Reveal>
