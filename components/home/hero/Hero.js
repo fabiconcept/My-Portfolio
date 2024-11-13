@@ -19,17 +19,14 @@ export const Hero = () => {
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
-            I&apos;ve spent the last 3 years building and scaling software for
-            some pretty cool companies. I also teach people to paint online
-            (incase you&apos;ve got an empty canvas layin&apos; around 🎨).
-            Let&apos;s connect!
+            I&apos;ve spent the last 5+ years building and scaling software for innovative companies across various industries. I also teach online painting classes&mdash;perfect if you&apos;ve got an empty canvas waiting to be filled 🎨. Let&apos;s connect!
           </p>
         </Reveal>
         <Reveal>
           <StandardButton
             onClick={() => document.getElementById("contact")?.scrollIntoView()}
           >
-            Contact me
+            Let&apos;s Talk
           </StandardButton>
         </Reveal>
       </div>
