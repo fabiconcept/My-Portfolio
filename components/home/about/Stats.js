@@ -32,6 +32,8 @@ export const Stats = () => {
             <span className="chip">Figma</span>
             <span className="chip">Digital Ocean</span>
             <span className="chip">Laravel</span>
+            <span className="chip">Appsheet</span>
+            <span className="chip">AppScript</span>
           </div>
         </div>
       </Reveal>
