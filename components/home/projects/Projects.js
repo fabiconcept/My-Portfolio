@@ -18,6 +18,40 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "CashGo Loan App Backend",
+    imgSrc: "https://pickholder.sirv.com/Images/cashgo.jpg",
+    code: "https://github.com/fabiconcept",
+    projectLink: "https://play.google.com/store/apps/details?id=com.de_developer.cashgo&pcampaignid=web_share",
+    tech: [
+      "nextjs",
+      "mongodb",
+      "firebase",
+      "typescript",
+      "react",
+    ],
+    description: "CashGo is a Nigerian loan app where I developed the Users & Administration backend. Initially built with Next.js and MongoDB, the backend was later migrated to Firebase for improved scalability and performance.",
+    modalContent: (
+      <>
+        <p>
+          CashGo is a Nigerian loan application designed to provide seamless financial services to users. I developed the backend for user management and administration, ensuring secure and efficient data handling.
+        </p>
+        <p>
+          The project began with a stack of Next.js and MongoDB, leveraging their strengths in building scalable web applications. Later, the backend was migrated to Firebase to enhance scalability, reliability, and real-time data synchronization.
+        </p>
+        <h2>Features</h2>
+        <ul>
+          <li>Robust User Management: Secure and efficient handling of user data.</li>
+          <li>Administration Panel: Comprehensive backend for managing operations.</li>
+          <li>Tech Stack Evolution: Migration from MongoDB to Firebase for better scalability.</li>
+          <li>Built with TypeScript: Ensures type safety and better development practices.</li>
+        </ul>
+        <p>
+          CashGo is a testament to the power of modern web development tools and showcases an evolution from traditional database systems to cloud-based solutions for optimal performance.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "MonoClient",
     imgSrc: "https://pickholder.sirv.com/Images/mono.png",
     code: "https://github.com/fabiconcept/mono-client-package",
