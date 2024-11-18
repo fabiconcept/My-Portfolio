@@ -24,7 +24,7 @@ const projects = [
     projectLink: "https://aism.edu",
     tech: [
       "nextjs",
-      "tailwindcss",
+      "tailwind",
       "framer-motion",
       "chatbot.com",
     ],
