@@ -18,6 +18,39 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "AISM Website Redesign",
+    imgSrc: "https://pickholder.sirv.com/Images/aism.png",
+    code: "https://github.com/fabiconcept/aism-edu",
+    projectLink: "https://aism.edu",
+    tech: [
+      "nextjs",
+      "tailwindcss",
+      "framer-motion",
+      "chatbot.com",
+    ],
+    description: "Redesigned the website for the American International School of Medicine (AISM) using Next.js, Tailwind CSS, and Framer Motion for an engaging and dynamic user experience. Integrated Chatbot.com AI to enhance visitor interaction and engagement.",
+    modalContent: (
+      <>
+        <p>
+          The American International School of Medicine (AISM) website redesign project focused on creating a modern, responsive, and user-friendly interface. Leveraging Next.js for performance, Tailwind CSS for streamlined styling, and Framer Motion for dynamic animations, the website now delivers a professional and engaging experience.
+        </p>
+        <p>
+          Additionally, the integration of Chatbot.com AI enhances the website&apos;s interactivity, providing instant assistance and improving visitor engagement by addressing their queries efficiently.
+        </p>
+        <h2>Features</h2>
+        <ul>
+          <li>Modern UI/UX: Clean, responsive design with a focus on user experience.</li>
+          <li>Dynamic Animations: Framer Motion was used to add smooth and engaging animations.</li>
+          <li>AI Integration: Chatbot.com AI integrated to improve visitor interaction.</li>
+          <li>Tailwind CSS: Streamlined and efficient styling for rapid development.</li>
+        </ul>
+        <p>
+          The redesign reflects AISM&apos;s commitment to excellence, ensuring their online presence aligns with their esteemed reputation in medical education.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "CashGo Loan App Backend",
     imgSrc: "https://pickholder.sirv.com/Images/cashgo.jpg",
     code: "https://github.com/fabiconcept",
