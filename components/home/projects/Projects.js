@@ -217,8 +217,8 @@ const projects = [
   {
     title: "Wilkinson & Regis Website Project",
     imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_16-12-2023_14436_localhost.jpeg",
-    code: "https://github.com/WilkinsonandRegis/landing-page",
-    projectLink: "http://wilkinsonregis.com/",
+    code: "https://github.com/fabiconcept",
+    projectLink: "https://landing-page-7cc2.vercel.app/",
     tech: ["nextjs", "css", "tailwind", "react-icons", "google-map", "emailjs"],
     description: "The Wilkinson & Regis Website Project involved the development of a modern and user-friendly landing page. Leveraging technologies such as Next.js, CSS, Tailwind, React Icons, Google Maps integration, and EmailJS, the website serves as a crucial online presence for Wilkinson & Regis.",
     modalContent: (
