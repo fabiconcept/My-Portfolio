@@ -54,6 +54,7 @@ export const Stats = () => {
             <span className="chip">Photoshop</span>
             <span className="chip">Netlify</span>
             <span className="chip">Web3 JS</span>
+            <span className="chip">Stripe</span>
           </div>
         </div>
       </Reveal>
