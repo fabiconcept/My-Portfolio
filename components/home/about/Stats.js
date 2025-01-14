@@ -28,6 +28,7 @@ export const Stats = () => {
             <span className="chip">GitHub</span>
             <span className="chip">Vercel</span>
             <span className="chip">Tailwind</span>
+            <span className="chip">Nativewind</span>
             <span className="chip">Bootstrap</span>
             <span className="chip">Solidity</span>
             <span className="chip">Next Rest API</span>
