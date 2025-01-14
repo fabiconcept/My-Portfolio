@@ -12,8 +12,12 @@ export const Stats = () => {
             <span>Use at work</span>
           </h4>
           <div className={styles.statGrid}>
-            <span className="chip">JavaScript</span>
+            <span className="chip">React Native</span>
+            <span className="chip">Clerk Auth</span>
+            <span className="chip">Neon DB</span>
+            <span className="chip">Zustand</span>
             <span className="chip">TypeScript</span>
+            <span className="chip">JavaScript</span>
             <span className="chip">NextJS</span>
             <span className="chip">React</span>
             <span className="chip">Redux</span>
