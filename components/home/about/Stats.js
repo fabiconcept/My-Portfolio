@@ -13,6 +13,7 @@ export const Stats = () => {
           </h4>
           <div className={styles.statGrid}>
             <span className="chip">React Native</span>
+            <span className="chip">Jest</span>
             <span className="chip">Clerk Auth</span>
             <span className="chip">Neon DB</span>
             <span className="chip">Zustand</span>
