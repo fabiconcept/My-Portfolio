@@ -3,8 +3,9 @@ import { useEffect } from "react";
 import ReactDOM from "react-dom";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
+import { AiFillGithub, AiOutlineExport, AiFillCrown } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
+import { projectType } from "./Projects";
 
 export const ProjectModal = ({
   modalContent,
@@ -15,6 +16,7 @@ export const ProjectModal = ({
   title,
   code,
   tech,
+  type,
 }) => {
   useEffect(() => {
     const body = document.querySelector("body");
@@ -38,6 +40,11 @@ export const ProjectModal = ({
         onClick={(e) => e.stopPropagation()}
         className={styles.modalCard}
       >
+        {type === projectType.professional && (
+          <div className={styles.projectCrown}>
+            <AiFillCrown />
+          </div>
+        )}
         <img
           className={styles.modalImage}
           src={imgSrc}

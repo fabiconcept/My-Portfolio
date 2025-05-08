@@ -24,6 +24,7 @@
   height: fit-content;
 
   border-radius: 1.2rem;
+  position: relative;
   overflow: hidden;
 
   background: var(--background-light);
@@ -34,6 +35,26 @@
 
 .modalImage {
   width: 100%;
+}
+
+.projectCrown {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: rgba(255, 217, 0, 0.2);
+  backdrop-filter: blur(3px);
+  color: #FFD700;
+  border: 1px solid rgba(255, 217, 0, 0.2);
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  display: grid;
+  place-items: center;
+  z-index: 1;
+
+  svg {
+    font-size: 2.5rem;
+  }
 }
 
 .modalContent {

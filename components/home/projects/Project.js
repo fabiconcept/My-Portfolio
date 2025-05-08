@@ -2,9 +2,10 @@ import { Reveal } from "@/components/utils/Reveal";
 import { useAnimation, useInView, motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
+import { AiFillCrown, AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { ProjectModal } from "./ProjectModal";
 import styles from "./projects.module.scss";
+import { projectType } from "./Projects";
 
 export const Project = ({
   modalContent,
@@ -14,6 +15,7 @@ export const Project = ({
   title,
   code,
   tech,
+  type,
 }) => {
   const [hovered, setHovered] = useState(false);
 
@@ -58,6 +60,12 @@ export const Project = ({
               rotate: hovered ? "2deg" : "0deg",
             }}
           />
+
+          {type === projectType.professional && (
+            <div className={styles.projectCrown}>
+              <AiFillCrown />
+            </div>
+          )}
         </div>
         <div className={styles.projectCopy}>
           <Reveal width="100%">
@@ -94,6 +102,7 @@ export const Project = ({
         title={title}
         code={code}
         tech={tech}
+        type={type}
       />
     </>
   );
