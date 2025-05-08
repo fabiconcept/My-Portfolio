@@ -45,7 +45,7 @@ const projects = [
           <li>🧑‍💻 Built from the ground up to act as your personal web portfolio.</li>
         </ul>
         <p>
-          The nostalgic aesthetic not only grabs attention but also enhances navigation through familiar interactions. Whether you're showcasing past work or simply making a strong first impression, this macOS-themed portfolio stands out in a sea of cookie-cutter templates. ✨
+          The nostalgic aesthetic not only grabs attention but also enhances navigation through familiar interactions. Whether you&apos;re showcasing past work or simply making a strong first impression, this macOS-themed portfolio stands out in a sea of cookie-cutter templates. ✨
         </p>
       </>
     ),
@@ -128,7 +128,7 @@ const projects = [
     modalContent: (
       <>
         <p>
-          ❄️ <strong>Cold Connect</strong> is a mobile application designed to bridge the gap between ColdHubs' cold storage services, logistics, and their users. It offers a smooth and user-friendly way for customers to book cold storage, buy crates, and request cold truck logistics, all in one place.
+          ❄️ <strong>Cold Connect</strong> is a mobile application designed to bridge the gap between ColdHubs&apos; cold storage services, logistics, and their users. It offers a smooth and user-friendly way for customers to book cold storage, buy crates, and request cold truck logistics, all in one place.
         </p>
         <h2>📦 Features</h2>
         <ul>
