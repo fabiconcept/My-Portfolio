@@ -16,9 +16,137 @@ export const Projects = () => {
   );
 };
 
+export const projectType = {
+  personal: "Personal",
+  professional: "Professional",
+}
+
 const projects = [
   {
+    title: "Macintosh OS (Portfolio)",
+    type: projectType.personal,
+    imgSrc: "https://pickholder.sirv.com/Images/macos.png",
+    code: "https://github.com/fabiconcept/macintosh-os",
+    projectLink: "https://macintosh-os.vercel.app",
+    tech: ["nextjs", "tailwind", "typescript", "framer-motion", "@dnd-kit", "zustand"],
+    description:
+      "A macOS-inspired interactive portfolio built with Next.js and Tailwind CSS, designed to showcase projects in a nostalgic, desktop-like experience.",
+    modalContent: (
+      <>
+        <p>
+          🖥️ <strong>Macintosh OS</strong> is more than just a design experiment — it&apos;s a personal, interactive portfolio crafted to reflect your unique style and creativity. Inspired by the classic Macintosh desktop environment, this project uses modern web tools like Next.js, TypeScript, and Tailwind CSS to present your work in a memorable way.
+        </p>
+        <h2>✨ Features</h2>
+        <ul>
+          <li>🪟 Desktop-like UI with draggable, resizable windows for browsing content.</li>
+          <li>📁 Folder-based layout to display your projects like system files.</li>
+          <li>⚡ Lightning-fast performance and responsive design for all screen sizes.</li>
+          <li>📦 Clean, maintainable TypeScript codebase for scalability.</li>
+          <li>🧑‍💻 Built from the ground up to act as your personal web portfolio.</li>
+        </ul>
+        <p>
+          The nostalgic aesthetic not only grabs attention but also enhances navigation through familiar interactions. Whether you're showcasing past work or simply making a strong first impression, this macOS-themed portfolio stands out in a sea of cookie-cutter templates. ✨
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Secret Room",
+    type: projectType.personal,
+    imgSrc: "https://pickholder.sirv.com/Images/secret-roon.png",
+    code: "https://github.com/fabiconcept/secret-room",
+    projectLink: "https://secret-room-orpin.vercel.app",
+    tech: ["nextjs", "tailwind", "socket.io", "typescript", "nodejs", "express", "mongodb"],
+    description:
+      "A real-time, anonymous chat application with temporary servers, built using Next.js, Socket.IO, and a Node.js backend.",
+    modalContent: (
+      <>
+        <p>
+          🔐 Secret Room is a real-time chat web app that lets users create temporary servers and invite others to chat &mdash; all without revealing any identity. The frontend uses Next.js, TypeScript, Tailwind CSS, and Socket.IO, while the backend relies on Node.js, Express, and MongoDB to manage ephemeral conversations.
+        </p>
+        <h2>💬 Features</h2>
+        <ul>
+          <li>⚡ Instant anonymous messaging via Socket.IO.</li>
+          <li>🧨 Self-destructing servers for ultimate privacy.</li>
+          <li>🔒 Encrypted messages and secure backend logic.</li>
+          <li>🎭 Custom usernames & private invite links.</li>
+          <li>🎨 Elegant interface with Tailwind styling.</li>
+        </ul>
+        <p>
+          Whether you&apos;re brainstorming ideas, chatting privately, or just looking to have a quick anonymous convo, Secret Room provides a slick and secure space to do it. No strings attached. 🚪
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "ClimeCache",
+    type: projectType.personal,
+    imgSrc: "https://pickholder.sirv.com/Images/weather.png",
+    code: "https://github.com/fabiconcept/weather-app-2025",
+    projectLink: "https://weather-app-esa.vercel.app",
+    tech: ["nextjs", "tailwind", "typescript", "openweathermap-api"],
+    description:
+      "A smart, customizable weather app with notes, caching, and shortcut-powered navigation — all built with Next.js, Tailwind CSS, and TypeScript.",
+    modalContent: (
+      <>
+        <p>
+          ☀️ <strong>ClimeCache</strong> is more than just a weather app — it&apos;s your personal climate dashboard. Built with Next.js, Tailwind CSS, and TypeScript, it delivers fast, accurate forecasts using the OpenWeatherMap API, while intelligently caching results to reduce API overhead and improve user experience.
+        </p>
+        <h2>🌦️ Features</h2>
+        <ul>
+          <li>📍 Weather forecasts with temp, humidity, wind speed & conditions.</li>
+          <li>💾 Smart caching system — stores each city&apos;s data locally for 1 hour.</li>
+          <li>🧠 Add personal <strong>notes</strong> to any city you&apos;ve viewed.</li>
+          <li>🌍 Manage your <strong>Favourite Cities</strong> and explore <strong>World Cities</strong>.</li>
+          <li>⚡ Built-in <strong>keyboard shortcuts</strong> for power users:
+            <ul style={{ paddingLeft: "1.5rem" }}>
+              <li>⌨️ <code>Ctrl + K</code>: Global Command Menu</li>
+              <li>⌨️ <code>Ctrl + F</code>: Quick Search</li>
+              <li>⌨️ <code>Ctrl + S</code>: Save a note</li>
+              <li>⌨️ <code>Ctrl + L</code>: Open Saved Notes</li>
+              <li>🛑 <code>Esc</code>: Close Notes Modal</li>
+            </ul>
+          </li>
+          <li>🎨 Beautiful adaptive UI based on live weather.</li>
+          <li>📱 Fully responsive & works offline for cached cities.</li>
+        </ul>
+        <p>
+          With its smart caching, customizable city notes, and intuitive shortcuts, ClimeCache blends functionality with user-centered design — making weather tracking efficient, personal, and just a little bit fun. 🗒️🌦️✨
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Cold Connect",
+    type: projectType.personal,
+    imgSrc: "https://pickholder.sirv.com/Images/coldconnect.png",
+    code: "https://github.com/fabiconcept/cold-connect",
+    projectLink: "https://github.com/fabiconcept/cold-connect",
+    tech: ["react-native", "expo", "tailwind", "typescript", "nativewind", "redux", "laravel", "mysql", "php"],
+    description:
+      "A mobile app for booking cold storage crates and refrigerated trucks, helping users store and transport perishables easily across Nigeria.",
+    modalContent: (
+      <>
+        <p>
+          ❄️ <strong>Cold Connect</strong> is a mobile application designed to bridge the gap between ColdHubs' cold storage services, logistics, and their users. It offers a smooth and user-friendly way for customers to book cold storage, buy crates, and request cold truck logistics, all in one place.
+        </p>
+        <h2>📦 Features</h2>
+        <ul>
+          <li>🧊 Book cold storage units and refrigerated trucks seamlessly.</li>
+          <li>📍 Real-time tracking of bookings and logistics.</li>
+          <li>🔔 Notifications for booking confirmations and updates.</li>
+          <li>💳 Secure payment integration for hassle-free transactions.</li>
+          <li>📱 Responsive design ensuring optimal user experience on various devices.</li>
+        </ul>
+        <p>
+          This project showcases the integration of modern mobile development technologies to solve real-world logistics challenges, enhancing the efficiency of perishable goods transportation in Nigeria.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "AISM Website Redesign",
+    type: projectType.professional,
     imgSrc: "https://pickholder.sirv.com/Images/aism.png",
     code: "https://github.com/fabiconcept/aism-edu",
     projectLink: "https://aism.edu",
@@ -52,6 +180,7 @@ const projects = [
   },
   {
     title: "CashGo Loan App Backend",
+    type: projectType.professional,
     imgSrc: "https://pickholder.sirv.com/Images/cashgo.jpg",
     code: "https://github.com/fabiconcept",
     projectLink: "https://play.google.com/store/apps/details?id=com.de_developer.cashgo&pcampaignid=web_share",
@@ -86,6 +215,7 @@ const projects = [
   },
   {
     title: "MonoClient",
+    type: projectType.personal,
     imgSrc: "https://pickholder.sirv.com/Images/mono.png",
     code: "https://github.com/fabiconcept/mono-client-package",
     projectLink: "https://www.npmjs.com/package/mono-client",
@@ -117,6 +247,7 @@ const projects = [
   },
   {
     title: "AmeriCare",
+    type: projectType.professional,
     imgSrc: "https://pickholder.sirv.com/Images/americare.png",
     code: "https://github.com/fabiconcept/americare",
     projectLink: "https://www.americareinhome.com/",
@@ -150,6 +281,7 @@ const projects = [
   },
   {
     title: "Goldwater Home Loans Experts",
+    type: projectType.professional,
     imgSrc: "https://pickholder.sirv.com/Images/goldwater.png",
     code: "https://github.com/fabiconcept/golden-gates",
     projectLink: "https://www.goldwaterhomeloans.com/",
@@ -183,6 +315,7 @@ const projects = [
   },
   {
     title: "GitHub Repository Explorer",
+    type: projectType.personal,
     imgSrc: "https://pickholder.sirv.com/Images/github.jpg",
     code: "https://github.com/fabiconcept/github-search-app",
     projectLink: "https://github-search-app-chi.vercel.app",
@@ -216,6 +349,7 @@ const projects = [
   },  
   {
     title: "Wilkinson & Regis Website Project",
+    type: projectType.professional,
     imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_16-12-2023_14436_localhost.jpeg",
     code: "https://github.com/fabiconcept",
     projectLink: "https://landing-page-7cc2.vercel.app/",
@@ -240,6 +374,7 @@ const projects = [
   },
   {
     title: "Linktree Clone",
+    type: projectType.personal,
     imgSrc: "https://pickholder.sirv.com/Images/linktree.jpeg",
     code: "https://github.com/fabiconcept/linktree",
     projectLink: "https://linktree-fabiconcept.vercel.app",
@@ -275,6 +410,7 @@ const projects = [
   },
   {
     title: "Photobooth",
+    type: projectType.personal,
     imgSrc: "https://pickholder.sirv.com/Images/photoboot.jpeg",
     code: "https://github.com/fabiconcept/photobooth",
     projectLink: "https://photobooth-alpha.vercel.app/",
@@ -300,6 +436,7 @@ const projects = [
   },    
   {
     title: "OFFRCloud Landing Page",
+    type: projectType.professional,
     imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_26-6-2023_21655_www.offrcloud.com.jpeg",
     code: "https://github.com/fabiconcept/",
     projectLink: "https://landing-page-ten-rose.vercel.app/",
@@ -329,6 +466,7 @@ const projects = [
   },
   {
     title: "Loco GPT",
+    type: projectType.professional,
     imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_26-6-2023_21536_locogpt.vercel.app.jpeg",
     code: "https://github.com/fabiconcept/locogpt",
     projectLink: "https://locogpt.vercel.app",
@@ -357,6 +495,7 @@ const projects = [
   },
   {
     title: "FlipMatch",
+    type: projectType.personal,
     imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_26-6-2023_21149_chic-custard-be2573.netlify.app.jpeg",
     code: "https://github.com/fabiconcept/memory-game",
     projectLink: "https://chic-custard-be2573.netlify.app/",
@@ -385,6 +524,7 @@ const projects = [
   },
   {
     title: "Smart Home",
+    type: projectType.personal,
     imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_26-6-2023_21452_lucky-sable-c6e6c9.netlify.app.jpeg",
     code: "https://github.com/fabiconcept/another_landing_page",
     projectLink: "https://lucky-sable-c6e6c9.netlify.app/",
@@ -413,6 +553,7 @@ const projects = [
   },
   {
     title: "Weatherly",
+    type: projectType.personal,
     imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_26-6-2023_21059_62d61b314a395b2bdbfa8119--venerable-nougat-d75b0a.netlify.app.jpeg",
     code: "https://github.com/fabiconcept/react-weather-app",
     projectLink: "https://weather.fabiconcept.online",
@@ -441,6 +582,7 @@ const projects = [
   },
   {
     title: "filter.app",
+    type: projectType.personal,
     imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_26-6-2023_298_62ecf64f488b4a47c5a06a09--gregarious-boba-a87216.netlify.app.jpeg",
     code: "https://github.com/fabiconcept/photo_filter",
     projectLink: "https://62ecf64f488b4a47c5a06a09--gregarious-boba-a87216.netlify.app/",
@@ -466,6 +608,7 @@ const projects = [
   },
   {
     title: "TypingMania",
+    type: projectType.personal,
     imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_29-6-2023_174051_word-asteroid-game.vercel.app.jpeg",
     code: "https://github.com/fabiconcept/word_asteroid_game",
     projectLink: "https://word-asteroid-game.vercel.app/",
@@ -495,6 +638,7 @@ const projects = [
   },
   {
     title: "CoinMarketCap Clone",
+    type: projectType.personal,
     imgSrc: "https://pickholder.sirv.com/Images/gecko.jpg",
     code: "https://github.com/fabiconcept/my_coinmarket",
     projectLink: "https://sparkly-fox-4bd131.netlify.app/",
@@ -523,6 +667,7 @@ const projects = [
   },
   {
     title: "Ideal-Shuffle",
+    type: projectType.personal,
     imgSrc: "https://pickholder.sirv.com/Images/Web%20capture_29-6-2023_17473_dapper-puffpuff-ea1e3b.netlify.app.jpeg",
     code: "https://github.com/fabiconcept/ideal-shuffle",
     projectLink: "https://dapper-puffpuff-ea1e3b.netlify.app/",
