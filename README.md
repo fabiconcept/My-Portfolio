@@ -31,7 +31,6 @@ To get this project up and running on your local machine, follow these steps:
 - **Next.js**: A React framework for building modern, dynamic websites.
 - **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
 - **Sass**: A powerful CSS preprocessor that enhances the styling process.
-- ... (include other technologies you might have used)
 
 ## Contact
 
