@@ -41,5 +41,3 @@ Feel free to connect with me for potential collaborations or opportunities:
 - Portfolio: [favourajokubi.com](https://my-portfolio-fabiconcept.vercel.app)
 
 Thank you for visiting my portfolio project! Your feedback and suggestions are greatly appreciated.
-
----
