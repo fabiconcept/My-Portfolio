@@ -23,6 +23,35 @@ export const projectType = {
 
 const projects = [
   {
+    title: "@useverse (NPM Package)",
+    type: projectType.personal,
+    imgSrc: "https://pickholder.sirv.com/Images/useverse-core.png",
+    code: "https://github.com/fabiconcept/useverse",
+    projectLink: "https://www.npmjs.com/package/@useverse/core",
+    tech: ["react", "typescript", "npm", "hooks"],
+    description:
+      "A comprehensive collection of practical React hooks for enhancing web applications with sound effects, keyboard shortcuts, and file download capabilities.",
+    modalContent: (
+      <>
+        <p>
+          🎯 <strong>Useverse Core</strong> is a powerful toolkit that brings together essential React hooks into one unified package. Built with TypeScript and designed for modern React applications, it simplifies common UI interactions like audio feedback, keyboard navigation, and file management.
+        </p>
+        <h2>🚀 Key Capabilities</h2>
+        <ul>
+          <li>🎵 useSoundEffect - Enhance user experience with dynamic audio feedback on interactions.</li>
+          <li>⌨️ useShortcuts - Implement intuitive keyboard shortcuts and hotkey combinations.</li>
+          <li>📥 useFileDownload - Manage file downloads with real-time status tracking and error handling.</li>
+          <li>⚡ Lightweight and tree-shakeable for optimal bundle size.</li>
+          <li>🔧 Fully typed with TypeScript for enhanced developer experience.</li>
+          <li>📦 Available as individual packages or bundled for convenience.</li>
+        </ul>
+        <p>
+          Whether you&apos;re building a file manager, dashboard, or interactive web app, Useverse Core provides the building blocks for polished, professional user interactions. The hooks are designed to work seamlessly together while remaining completely independent when used separately. 🎨
+        </p>
+      </>
+    ),
+  },
+  {
     title: "Macintosh OS (Portfolio)",
     type: projectType.personal,
     imgSrc: "https://pickholder.sirv.com/Images/macos.png",
@@ -149,7 +178,7 @@ const projects = [
     type: projectType.professional,
     imgSrc: "https://pickholder.sirv.com/Images/aism.png",
     code: "https://github.com/fabiconcept/aism-edu",
-    projectLink: "https://aism.edu",
+    projectLink: "https://aism-edu.vercel.app",
     tech: [
       "nextjs",
       "tailwind",
@@ -346,7 +375,7 @@ const projects = [
         </p>
       </>
     ),
-  },  
+  },
   {
     title: "Wilkinson & Regis Website Project",
     type: projectType.professional,
@@ -377,7 +406,7 @@ const projects = [
     type: projectType.personal,
     imgSrc: "https://pickholder.sirv.com/Images/linktree.jpeg",
     code: "https://github.com/fabiconcept/linktree",
-    projectLink: "https://linktree-fabiconcept.vercel.app",
+    projectLink: "https://ya-links.vercel.app",
     tech: ["Next.js", "Tailwind CSS", "React Beautiful DnD", "React Hot Toast", "bad-words", "crypto-js", "js-cookie", "qrcode.react", "react-confetti", "react-share"],
     description: "I'm recreating Linktree using Next.js and Tailwind CSS for user admin features. Linktree lets users create personal link pages. This builds my skills in Next.js and Tailwind CSS.",
     modalContent: (
@@ -414,8 +443,8 @@ const projects = [
     imgSrc: "https://pickholder.sirv.com/Images/photoboot.jpeg",
     code: "https://github.com/fabiconcept/photobooth",
     projectLink: "https://photobooth-alpha.vercel.app/",
-    tech: ["autoprefixer", "eslint", "eslint-config-next", "next", "postcss", "react", "react-dom", "react-hot-toast", "react-icons", "react-masonry-css", "tailwindcss" ],
-    description: "Photobooth is a web app for exploring photos. Infinite scroll galleries from pixel.com API on the homepage, and a search page with a logo and search bar. Clone, install, update API key, and start the server to use.", 
+    tech: ["autoprefixer", "eslint", "eslint-config-next", "next", "postcss", "react", "react-dom", "react-hot-toast", "react-icons", "react-masonry-css", "tailwindcss"],
+    description: "Photobooth is a web app for exploring photos. Infinite scroll galleries from pixel.com API on the homepage, and a search page with a logo and search bar. Clone, install, update API key, and start the server to use.",
     modalContent: (
       <>
         <p>
@@ -433,7 +462,7 @@ const projects = [
       </>
     ),
 
-  },    
+  },
   {
     title: "OFFRCloud Landing Page",
     type: projectType.professional,
@@ -676,19 +705,19 @@ const projects = [
     modalContent: (
       <>
         <p>
-          Ideal-Shuffle is a feature-packed music player web application designed to enhance your listening experience. 
+          Ideal-Shuffle is a feature-packed music player web application designed to enhance your listening experience.
           With a wide range of functionalities, it offers everything you need for seamless music playback.
         </p>
         <p>
-          The key features of Ideal-Shuffle include a music playlist, play, pause, next, previous, seek, mute, shuffle, and repeat options. 
+          The key features of Ideal-Shuffle include a music playlist, play, pause, next, previous, seek, mute, shuffle, and repeat options.
           Whether you want to create your personalized playlist or enjoy the shuffle mode, Ideal-Shuffle has got you covered.
         </p>
         <p>
-          Built with a combination of vanilla JavaScript and React, the music player ensures smooth playback and a responsive user interface. 
+          Built with a combination of vanilla JavaScript and React, the music player ensures smooth playback and a responsive user interface.
           Its intuitive controls make it easy to navigate through your music library and customize your listening experience.
         </p>
         <p>
-          Whether you&apos;re in the mood for a specific song, want to discover new tracks, or simply enjoy a random shuffle of your favorites, 
+          Whether you&apos;re in the mood for a specific song, want to discover new tracks, or simply enjoy a random shuffle of your favorites,
           Ideal-Shuffle provides a seamless and enjoyable music listening experience.
         </p>
       </>
