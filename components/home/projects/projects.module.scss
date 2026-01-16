@@ -18,13 +18,15 @@
   overflow: hidden;
 
   img {
-    width: 85%;
+    width: 90%;
+    height: 100%;
+    transform-origin: left bottom;
     position: absolute;
     bottom: 0;
     left: 50%;
     translate: -50% 20%;
 
-    transition: 0.25s all;
+    transition: 0.25s all cubic-bezier(0.175, 0.985, 0.42, 1.75);
 
     border-radius: 0.4rem;
   }

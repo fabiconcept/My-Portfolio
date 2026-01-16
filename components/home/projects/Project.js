@@ -6,6 +6,7 @@ import { AiFillCrown, AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { ProjectModal } from "./ProjectModal";
 import styles from "./projects.module.scss";
 import { projectType } from "./Projects";
+import Image from "next/image";
 
 export const Project = ({
   modalContent,
@@ -52,17 +53,19 @@ export const Project = ({
           onClick={() => setIsOpen(true)}
           className={styles.projectImage}
         >
-          <img
+          <Image
             src={imgSrc}
             alt={`An image of the ${title} project.`}
+            width={1000}
+            height={500}
             style={{
-              width: hovered ? "90%" : "85%",
-              rotate: hovered ? "2deg" : "0deg",
+              rotate: hovered ? "-2deg" : "0deg",
+              translate: hovered ? "-50% 10%" : "-50% 20%",
             }}
           />
 
           {type === projectType.professional && (
-            <div className={styles.projectCrown}>
+            <div title="Professional Project" className={styles.projectCrown}>
               <AiFillCrown />
             </div>
           )}
