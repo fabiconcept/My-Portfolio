@@ -14,83 +14,100 @@ export const Experience = () => {
 
 const experience = [
   {
+    title: "Imo Digital City Limited (IDCL)",
+    position: "Software Developer",
+    time: "Jan. 2025 - Present",
+    location: "Imo State, Nigeria",
+    description:
+      "As a Software Developer at Imo Digital City Limited, I work on large scale government digitization projects in partnership with the Ministry of Digital Economy. My responsibilities include building and deploying public sector platforms, digitizing internal workflows, and translating government policies into functional digital systems. I collaborate directly with stakeholders across ministries to deliver reliable, scalable, and accessible digital solutions.",
+    tech: [
+      "Laravel",
+      "PHP",
+      "JavaScript",
+      "MySQL",
+      "Git",
+      "GitHub",
+      "DigitalOcean",
+    ],
+  },
+  {
     title: "American International School of Medicine (AISM)",
-    position: "Web Developer",
+    position: "Web Developer (Contract)",
     time: "Oct. 2024 - Present",
     location: "Alpharetta, US (Remote)",
-    description: "As a Web Developer for AISM, I am responsible for enhancing the school's online presence by developing and maintaining a responsive, user-friendly website that supports student engagement and information accessibility. My work involves implementing modern front-end technologies and optimizing the site for performance. I collaborate with the AISM team to ensure the platform is aligned with their goals in delivering a seamless online experience for students, faculty, and prospective students.",
+    description:
+      "As a contract Web Developer for AISM, I enhance and maintain the school’s web platforms with a focus on performance, accessibility, and responsiveness. I work closely with internal teams to improve content delivery, student engagement, and overall user experience using modern frontend tooling.",
     tech: [
       "Next.js",
       "Tailwind CSS",
+      "React",
       "Vercel",
       "Sirv",
-      "React"
-    ]
+    ],
+  },
+  {
+    title: "Cold Hubs Limited",
+    position: "Backend Developer",
+    time: "2023",
+    location: "Nigeria",
+    description:
+      "At Cold Hubs Limited, I built scalable backend systems supporting cold storage logistics, inventory management, and warehouse operations. My work included designing MySQL schemas, building Laravel APIs, implementing authentication and role based access control, and optimizing data pipelines used by both field and admin systems.",
+    tech: [
+      "Laravel",
+      "PHP",
+      "MySQL",
+      "Git",
+      "GitHub",
+      "DigitalOcean",
+      "Mailgun",
+    ],
   },
   {
     title: "Supervision Company",
-    position: "AppSheet Developer",
-    time: "Sept. 2024 - Present",
-    location: "New Jersey, US (Remote)",
-    description: "As an AppSheet Developer at Supervision Company, I develop and manage custom applications to streamline business operations and improve data accessibility across teams. My role involves creating data-driven workflows and interfaces that empower users to interact with complex datasets easily. I work closely with stakeholders to design intuitive solutions that meet specific business needs, leveraging AppSheet's low-code capabilities for rapid development. This includes automating processes, enhancing user experience, and integrating apps seamlessly with Supervision's existing systems.",
+    position: "Software Developer",
+    time: "2022",
+    location: "Remote",
+    description:
+      "At Supervision Company, I built internal tools using AppSheet and Google Apps Script to automate workflows and reduce manual operations. I developed data driven applications that improved reporting accuracy, streamlined processes, and enabled non technical teams to interact with complex datasets more efficiently.",
     tech: [
       "AppSheet",
       "Google Sheets",
       "JavaScript",
       "Google Apps Script",
       "Google Workspace",
-      "APIs"
-    ]
-  },
-  {
-    title: "Cold Hubs Limited",
-    position: "Backend Developer",
-    time: "Aug. 2024 - Present",
-    location: "Nigeria",
-    description: "As a Backend Developer at Cold Hubs Limited, I am responsible for building and maintaining robust backend systems that support the company's cold storage and logistics solutions. I work closely with the team to implement efficient APIs and handle the business logic for features like cold storage bookings, logistics services, and user management. My role involves ensuring data integrity, system scalability, and seamless integration with the frontend. I also contribute to optimizing the company's internal workflows through the development of custom backend solutions.",
-    tech: [
-      "Laravel",
-      "PHP",
-      "Figma",
-      "MySQL",
-      "Git",
-      "GitHub",
-      "DigitalOcean",
-      "Mail Gun"
-    ]
+    ],
   },
   {
     title: "Digital Skills Empowerment Program (DSEP)",
     position: "Frontend Development Tutor",
-    time: "Sept. 2023 - Aug. 2024",
-    location: "Lagos, Nigeria",
-    description: "As a Frontend Development Tutor at DSEP, I've had the privilege of mentoring and guiding aspiring developers on their journey to mastering the fundamentals of web development. My role primarily focuses on teaching beginners the essential building blocks of web development, including HTML, CSS, and JavaScript. I've had the opportunity to nurture their potential and cultivate their passion for creating web applications and sites.",
+    time: "Jan. 2022 - Jan. 2023",
+    location: "Nigeria",
+    description:
+      "As a Frontend Development Tutor at DSEP, I taught beginners the fundamentals of web development including HTML, CSS, and JavaScript. I guided students through hands on projects, helped them build confidence in coding, and supported their transition into modern frontend frameworks.",
     tech: [
       "HTML",
       "CSS",
+      "JavaScript",
       "Git",
-      "Javascript",
     ],
   },
   {
     title: "OffrCloud",
-    position: "Part-Time Remote Blockchain Developer",
-    time: "Dec. 2022 - July. 2023",
-    location: "Atlanta, US (Remote)",
-    description: "During my time at OffrCloud, I led the development of a cutting-edge FinTech Dapp System as a Lone Remote Blockchain Developer. I not only coded but also created the captivating Landing Page, representing our innovation. My role included designing and securing an ERC20 Security Dividend Token, managing token sales, and deploying a transparent dividend distribution smart contract. These experiences deepened my blockchain knowledge and emphasized the importance of secure financial systems.",
+    position: "Blockchain Developer",
+    time: "2020",
+    location: "Remote",
+    description:
+      "At OffrCloud, I worked as a Blockchain Developer building a Web3 fintech application with wallet authentication and smart contract integration. I developed Solidity contracts for token handling and rewards, deployed contracts to blockchain networks, and built React interfaces connected to both smart contracts and REST APIs.",
     tech: [
+      "Solidity",
       "React",
       "Firebase",
-      "EthersJs",
-      "Solidity",
+      "Ethers.js",
       "Remix",
-      "CSS",
       "Bootstrap",
       "Git",
       "GitHub",
       "Vercel",
-      "Bootstrap",
-      "emailjs-com",
     ],
   },
 ];

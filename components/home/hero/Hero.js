@@ -12,16 +12,19 @@ export const Hero = () => {
             Hey, I&apos;m Favour<span>.</span>
           </h1>
         </Reveal>
+
         <Reveal>
           <h2 className={styles.subTitle}>
-            I&apos;m a <span>FrontEnd Developer</span>
+            I&apos;m a <span>Frontend Developer</span>
           </h2>
         </Reveal>
+
         <Reveal>
           <p className={styles.aboutCopy}>
-            I&apos;ve spent the last 5+ years building and scaling software for innovative companies across various industries. I also teach online painting classes&mdash;perfect if you&apos;ve got an empty canvas waiting to be filled 🎨. Let&apos;s connect!
+            I build and scale software across fintech, logistics, edtech, blockchain, and public sector platforms. Outside of work, I enjoy CSS art, UI design, building side projects, and supporting FC Barcelona.
           </p>
         </Reveal>
+
         <Reveal>
           <StandardButton
             onClick={() => document.getElementById("contact")?.scrollIntoView()}
@@ -30,6 +33,7 @@ export const Hero = () => {
           </StandardButton>
         </Reveal>
       </div>
+
       <DotGrid />
     </section>
   );

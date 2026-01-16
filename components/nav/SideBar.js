@@ -22,7 +22,9 @@ export const SideBar = () => {
 
     const observer = new IntersectionObserver(callback, options);
 
-    sections.forEach((section) => observer.observe(section));
+    sections.forEach((section) => {
+      return observer.observe(section);
+    });
   }, []);
 
   return (
