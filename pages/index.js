@@ -11,6 +11,7 @@ export default function home() {
           content="Favour Tochukwu Ajokubi is a full stack developer building scalable web, mobile, and blockchain applications across fintech, logistics, edtech, and public sector platforms."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://fabiconcept.com" />
 
         {/* Favicon */}
         <link rel="icon" href="/favicons/favicon.ico" />
@@ -23,16 +24,15 @@ export default function home() {
         <meta property="og:title" content="Favour Ajokubi | Full Stack Developer" />
         <meta property="og:description" content="Favour Tochukwu Ajokubi is a full stack developer building scalable web, mobile, and blockchain applications across fintech, logistics, edtech, and public sector platforms." />
         <meta property="og:image" content="/og-image.jpg" />
+        <meta property="og:url" content="https://fabiconcept.com" />
+        <meta property="og:site_name" content="Favour Ajokubi | Full Stack Developer" />
+        <meta property="og:logo" content="/logo.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Favour Ajokubi | Full Stack Developer" />
         <meta name="twitter:description" content="Favour Tochukwu Ajokubi is a full stack developer building scalable web, mobile, and blockchain applications across fintech, logistics, edtech, and public sector platforms." />
         <meta name="twitter:image" content="/og-image.jpg" />
-        <meta property="og:url" content="https://fabiconcept.com" />
-        <meta property="og:site_name" content="Favour Ajokubi | Full Stack Developer" />
-        <link rel="canonical" href="https://fabiconcept.com" />
-        <link rel="logo" href="/logo.png" />
       </Head>
       <Home />
     </>
