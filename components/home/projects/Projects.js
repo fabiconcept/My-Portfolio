@@ -8,7 +8,7 @@ export const Projects = () => {
       <SectionHeader title="Projects" dir="r" />
 
       <div className={styles.projects}>
-        {projects.map((project) => {
+        {MyProjects.map((project) => {
           return <Project key={project.title} {...project} />;
         })}
       </div>
@@ -21,7 +21,7 @@ export const projectType = {
   professional: "Professional",
 }
 
-const projects = [
+export const MyProjects = [
   {
     title: "@useverse (NPM Package)",
     type: projectType.personal,
