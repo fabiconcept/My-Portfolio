@@ -29,6 +29,10 @@ export default function home() {
         <meta name="twitter:title" content="Favour Ajokubi | Full Stack Developer" />
         <meta name="twitter:description" content="Favour Tochukwu Ajokubi is a full stack developer building scalable web, mobile, and blockchain applications across fintech, logistics, edtech, and public sector platforms." />
         <meta name="twitter:image" content="/og-image.jpg" />
+        <meta property="og:url" content="https://fabiconcept.com" />
+        <meta property="og:site_name" content="Favour Ajokubi | Full Stack Developer" />
+        <link rel="canonical" href="https://fabiconcept.com" />
+        <link rel="logo" href="/logo.png" />
       </Head>
       <Home />
     </>
