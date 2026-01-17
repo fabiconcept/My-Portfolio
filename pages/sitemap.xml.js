@@ -1,15 +1,10 @@
 // pages/sitemap.xml.js
 
 import { MyProjects } from "@/components/home/projects/Projects";
+import { createProjectSlug } from "@/components/utils/urlParams";
 
 const SITE_URL = 'https://fabiconcept.com';
 
-const socialLinks = [
-    'https://www.linkedin.com/in/favour-ajokubi-371904222/',
-    'https://www.github.com/fabiconcept',
-    'https://www.twitter.com/goath2o',
-    'https://www.instagram.com/fabiconcept_ng',
-];
 
 // Helper function to escape XML special characters
 function escapeXml(unsafe) {
@@ -61,21 +56,14 @@ function generateSiteMap() {
         },
     ];
 
-    const socialEntries = socialLinks.map((link) => ({
-        url: link,
-        lastModified: currentDate,
-        changeFrequency: 'yearly',
-        priority: 0.5,
-    }));
-
     const projectEntries = MyProjects.map((project) => ({
-        url: project.projectLink,
+        url: `${SITE_URL}/?project=${createProjectSlug(project.title)}`,
         lastModified: currentDate,
         changeFrequency: 'monthly',
         priority: 0.6,
     }));
 
-    const allUrls = [...pageSections, ...socialEntries, ...projectEntries];
+    const allUrls = [...pageSections, ...projectEntries];
 
     return `<?xml version="1.0" encoding="UTF-8"?>
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

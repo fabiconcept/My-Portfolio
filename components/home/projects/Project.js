@@ -7,6 +7,8 @@ import { ProjectModal } from "./ProjectModal";
 import styles from "./projects.module.scss";
 import { projectType } from "./Projects";
 import Image from "next/image";
+import { updateSearchParam, createProjectSlug, removeSearchParam } from "@/components/utils/urlParams";
+import { useSearchParams } from "next/navigation";
 
 export const Project = ({
   modalContent,
@@ -19,8 +21,16 @@ export const Project = ({
   type,
 }) => {
   const [hovered, setHovered] = useState(false);
-
+  const projectSlug = createProjectSlug(title);
+  const searchParams = useSearchParams();
+  const currentProject = searchParams.get('project');
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    if (currentProject === projectSlug) {
+      setIsOpen(true);
+    }
+  }, [currentProject, projectSlug]);
 
   const controls = useAnimation();
 
@@ -34,6 +44,16 @@ export const Project = ({
       controls.start("hidden");
     }
   }, [isInView, controls]);
+
+  const closeModal = () => {
+    removeSearchParam("project");
+    setIsOpen(false);
+  };
+
+  const openModal = () => {
+    updateSearchParam("project", projectSlug);
+    setIsOpen(true);
+  };
 
   return (
     <>
@@ -50,7 +70,7 @@ export const Project = ({
         <div
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
-          onClick={() => setIsOpen(true)}
+          onClick={openModal}
           className={styles.projectImage}
         >
           <Image
@@ -91,7 +111,7 @@ export const Project = ({
           <Reveal>
             <p className={styles.projectDescription}>
               {description}{" "}
-              <span onClick={() => setIsOpen(true)}>Learn more {">"}</span>
+              <span onClick={openModal}>{currentProject} Learn more {">"}</span>
             </p>
           </Reveal>
         </div>
@@ -99,13 +119,15 @@ export const Project = ({
       <ProjectModal
         modalContent={modalContent}
         projectLink={projectLink}
-        setIsOpen={setIsOpen}
         isOpen={isOpen}
+        onClose={closeModal}
         imgSrc={imgSrc}
         title={title}
+        description={description}
         code={code}
         tech={tech}
         type={type}
+        projectSlug={projectSlug}
       />
     </>
   );

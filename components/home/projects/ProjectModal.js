@@ -7,15 +7,17 @@ import { AiFillGithub, AiOutlineExport, AiFillCrown } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { projectType } from "./Projects";
 import Image from "next/image";
+import Head from "next/head";
 
 export const ProjectModal = ({
   modalContent,
   projectLink,
-  setIsOpen,
   imgSrc,
   isOpen,
   title,
+  description,
   code,
+  onClose,
   tech,
   type,
 }) => {
@@ -30,8 +32,8 @@ export const ProjectModal = ({
   }, [isOpen]);
 
   const content = (
-    <div className={styles.modal} onClick={() => setIsOpen(false)}>
-      <button className={styles.closeModalBtn}>
+    <div className={styles.modal} onClick={onClose}>
+      <button className={styles.closeModalBtn} onClick={onClose}>
         <MdClose />
       </button>
 
@@ -79,5 +81,11 @@ export const ProjectModal = ({
 
   if (!isOpen) return <></>;
 
-  return ReactDOM.createPortal(content, document.getElementById("root"));
+  return <>
+    <Head>
+      <title>Project - {title}</title>
+      <meta name="description" content={description} />
+    </Head>
+    {ReactDOM.createPortal(content, document.getElementById("root"))}
+  </>
 };
