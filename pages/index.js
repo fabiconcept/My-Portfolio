@@ -12,6 +12,7 @@ export default function home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://fabiconcept.com" />
+        <meta name="p:domain_verify" content="74e5ec1997d61dad77d62429b962838f"/>
 
         {/* Favicon */}
         <link rel="icon" href="/favicons/favicon.ico" />
