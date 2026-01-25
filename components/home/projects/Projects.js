@@ -23,6 +23,67 @@ export const projectType = {
 
 export const MyProjects = [
   {
+    title: "Chirps",
+    type: projectType.personal,
+    imgSrc: "https://pickholder.sirv.com/Images/chirps.png",
+    code: "https://github.com/fabiconcept/chirps-chat",
+    projectLink: "https://chirps-chat.vercel.app",
+    tech: ["react", "nextjs", "typescript", "redux", "tailwind", "framer-motion", "radix-ui", "shadcn"],
+    description:
+      "An ambitious all-in-one social platform combining feed posts, real-time chat, marketplace, digital wallet, and leaderboards - think Twitter meets Discord meets your bank account, built with cutting-edge web technologies.",
+    modalContent: (
+      <>
+        <p>
+          🐦 <strong>Chirps</strong> is a feature-packed social platform that went from a simple social media concept to a comprehensive ecosystem. Built with the latest web technologies, it combines social networking, messaging, commerce, and gamification into one seamless experience - because why have one app when you can have seven features in one?
+        </p>
+        <h2>✨ Features Galore</h2>
+        <ul>
+          <li>📱 Social Feed - Post, read, and engage with content in a familiar social media experience.</li>
+          <li>💬 Real-time Chat - Direct messaging and chat rooms for seamless communication.</li>
+          <li>🏆 Leaderboard - Competitive rankings and user achievements to keep things interesting.</li>
+          <li>🛒 Marketplace - Buy and sell within the platform&apos;s integrated commerce system.</li>
+          <li>💰 Digital Wallet - Manage transactions and balances with built-in wallet functionality.</li>
+          <li>📊 Activity Tracking - Monitor user engagement and platform statistics.</li>
+          <li>🌙 Dark Mode - Beautifully crafted theme toggle with animated stars and clouds.</li>
+          <li>🎨 Rich Interactions - Lottie animations, 3D globe visualization, and emoji picker integration.</li>
+        </ul>
+        <p>
+          Powered by Next.js 16, React 19, TypeScript, Redux Toolkit, Tailwind CSS 4, and Radix UI, Chirps pushes the boundaries of what a modern web application can be. With Framer Motion animations and Globe.gl visualizations, it delivers a polished, feature-rich experience that&apos;s equal parts ambitious and impressive. 🚀
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "SayIt Wiki",
+    type: projectType.personal,
+    imgSrc: "https://pickholder.sirv.com/Images/say-it-wiki.png",
+    code: "https://github.com/fabiconcept/sayit-wiki",
+    projectLink: "https://sayit-wiki.vercel.app",
+    tech: ["react", "nextjs", "typescript", "redux", "tailwind", "framer-motion"],
+    description:
+      "A beautiful, interactive note-sharing platform that brings the nostalgic feel of a physical bulletin board to the web with customizable notes, handwriting fonts, and engaging community features.",
+    modalContent: (
+      <>
+        <p>
+          📌 <strong>SayIt Wiki</strong> is an interactive note-sharing platform that recreates the charm of a physical bulletin board in digital form. Pin colorful, customizable notes to a shared virtual wall with authentic handwriting styles, varied paper textures, and realistic clip designs.
+        </p>
+        <h2>🎨 Key Features</h2>
+        <ul>
+          <li>📝 16+ Note Styles - From classic to spiral, torn edges, sticky notes, and polaroid designs.</li>
+          <li>✍️ 10+ Handwriting Fonts - Authentic handwriting styles for a personal touch.</li>
+          <li>🎯 Interactive Grid - Responsive masonry layout with smooth Framer Motion animations.</li>
+          <li>💬 Social Engagement - Like and comment on notes from the community.</li>
+          <li>🎬 Auto-Scroll Mode - Perfect showcase mode for unattended displays.</li>
+          <li>🌙 Dark Mode - Beautiful theme support for comfortable viewing.</li>
+          <li>⌨️ Keyboard Shortcuts - Quick actions with Ctrl/Cmd + N to create, Ctrl/Cmd + S to screenshot.</li>
+        </ul>
+        <p>
+          Built with Next.js 16, React 19, Redux Toolkit, and Tailwind CSS 4, SayIt Wiki combines modern web technologies with nostalgic design to create an engaging, community-driven note-sharing experience. Perfect for collaborative spaces, creative showcases, or digital memory boards. 📍
+        </p>
+      </>
+    ),
+  },
+  {
     title: "@useverse (NPM Package)",
     type: projectType.personal,
     imgSrc: "https://pickholder.sirv.com/Images/useverse-core.png",
