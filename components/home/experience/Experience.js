@@ -21,13 +21,15 @@ const experience = [
     description:
       "As a Software Developer at Imo Digital City Limited, I work on large scale government digitization projects in partnership with the Ministry of Digital Economy. My responsibilities include building and deploying public sector platforms, digitizing internal workflows, and translating government policies into functional digital systems. I collaborate directly with stakeholders across ministries to deliver reliable, scalable, and accessible digital solutions.",
     tech: [
-      "Laravel",
-      "PHP",
-      "JavaScript",
-      "MySQL",
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Vercel",
+      "Nest.js",
+      "TypeScript",
+      "PostgreSQL",
       "Git",
       "GitHub",
-      "DigitalOcean",
     ],
   },
   {
