@@ -30,6 +30,7 @@ const experience = [
       "PostgreSQL",
       "Git",
       "GitHub",
+      "3+"
     ],
   },
   {
@@ -57,11 +58,13 @@ const experience = [
     tech: [
       "Laravel",
       "PHP",
+      "TypeScript",
       "MySQL",
       "Git",
       "GitHub",
       "DigitalOcean",
       "Mailgun",
+      "6+"
     ],
   },
   {
