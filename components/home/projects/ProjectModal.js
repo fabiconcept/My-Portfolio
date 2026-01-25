@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import ReactDOM from "react-dom";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { AiFillGithub, AiOutlineExport, AiFillCrown } from "react-icons/ai";
+import { AiFillGithub, AiOutlineExport, AiFillCrown, AiFillStar, AiFillTag } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { projectType } from "./Projects";
 import Image from "next/image";
@@ -44,8 +44,18 @@ export const ProjectModal = ({
         className={styles.modalCard}
       >
         {type === projectType.professional && (
-          <div className={styles.projectCrown}>
+          <div title="Professional Project" className={styles.projectCrown}>
+            <AiFillTag />
+          </div>
+        )}
+        {type === projectType.personal && (
+          <div title="Personal Project" className={styles.projectStar}>
             <AiFillCrown />
+          </div>
+        )}
+        {type === projectType.openSource && (
+          <div title="Open Source Project" className={styles.projectOpenSource}>
+            <AiFillStar />
           </div>
         )}
         <Image

@@ -2,7 +2,7 @@ import { Reveal } from "@/components/utils/Reveal";
 import { useAnimation, useInView, motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { AiFillCrown, AiFillGithub, AiOutlineExport } from "react-icons/ai";
+import { AiFillCrown, AiFillGithub, AiFillStar, AiFillTag, AiOutlineExport } from "react-icons/ai";
 import { ProjectModal } from "./ProjectModal";
 import styles from "./projects.module.scss";
 import { projectType } from "./Projects";
@@ -86,7 +86,17 @@ export const Project = ({
 
           {type === projectType.professional && (
             <div title="Professional Project" className={styles.projectCrown}>
+              <AiFillTag />
+            </div>
+          )}
+          {type === projectType.personal && (
+            <div title="Personal Project" className={styles.projectStar}>
               <AiFillCrown />
+            </div>
+          )}
+          {type === projectType.openSource && (
+            <div title="Open Source Project" className={styles.projectOpenSource}>
+              <AiFillStar />
             </div>
           )}
         </div>

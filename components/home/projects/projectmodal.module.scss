@@ -37,7 +37,7 @@
   width: 100%;
 }
 
-.projectCrown {
+.projectCrown, .projectStar, .projectOpenSource {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
@@ -55,6 +55,18 @@
   svg {
     font-size: 2.5rem;
   }
+}
+
+.projectStar {
+  color: rgba(var(--brand-rgb), 1);
+  background: rgba(var(--brand-rgb), 0.2);
+  border-color: rgba(var(--brand-rgb), 0.2);
+}
+
+.projectOpenSource {
+  color: rgba(var(--brand-open-source), 1);
+  background: rgba(var(--brand-open-source), 0.2);
+  border-color: rgba(var(--brand-open-source), 0.2);
 }
 
 .modalContent {

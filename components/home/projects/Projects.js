@@ -19,6 +19,7 @@ export const Projects = () => {
 export const projectType = {
   personal: "Personal",
   professional: "Professional",
+  openSource: "Open Source",
 }
 
 export const MyProjects = [
@@ -85,7 +86,7 @@ export const MyProjects = [
   },
   {
     title: "@useverse (NPM Package)",
-    type: projectType.personal,
+    type: projectType.openSource,
     imgSrc: "https://pickholder.sirv.com/Images/useverse-core.png",
     code: "https://github.com/fabiconcept/useverse",
     projectLink: "https://www.npmjs.com/package/@useverse/core",
