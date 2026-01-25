@@ -37,7 +37,7 @@
   width: 100%;
 }
 
-.projectCrown, .projectStar, .projectOpenSource {
+.projectCrown, .projectStar, .projectOpenSource, .projectWip {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
@@ -67,6 +67,12 @@
   color: rgba(var(--brand-open-source), 1);
   background: rgba(var(--brand-open-source), 0.2);
   border-color: rgba(var(--brand-open-source), 0.2);
+}
+
+.projectWip {
+  color: #FF9800;
+  background: rgba(255, 152, 0, 0.2);
+  border-color: rgba(255, 152, 0, 0.2);
 }
 
 .modalContent {

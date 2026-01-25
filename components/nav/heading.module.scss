@@ -22,7 +22,7 @@
 
 .filter_ios {
   backdrop-filter: blur(4px);
-  filter: url(#lensFilter) saturate(140%) brightness(1.5);
+  filter: url(#lensFilter) saturate(140%) grayscale(1);
   position: absolute;
   inset: 0;
   z-index: 19;

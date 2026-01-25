@@ -26,6 +26,7 @@ export const MyProjects = [
   {
     title: "Chirps",
     type: projectType.personal,
+    inProgress: true,
     imgSrc: "https://pickholder.sirv.com/Images/chirps.png",
     code: "https://github.com/fabiconcept/chirps-chat",
     projectLink: "https://chirps-chat.vercel.app",
@@ -57,6 +58,7 @@ export const MyProjects = [
   {
     title: "SayIt Wiki",
     type: projectType.personal,
+    inProgress: true,
     imgSrc: "https://pickholder.sirv.com/Images/say-it-wiki.png",
     code: "https://github.com/fabiconcept/sayit-wiki",
     projectLink: "https://sayit-wiki.vercel.app",

@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { AiFillGithub, AiOutlineExport, AiFillCrown, AiFillStar, AiFillTag } from "react-icons/ai";
-import { MdClose } from "react-icons/md";
+import { MdClose, MdConstruction } from "react-icons/md";
 import { projectType } from "./Projects";
 import Image from "next/image";
 import Head from "next/head";
@@ -20,6 +20,7 @@ export const ProjectModal = ({
   onClose,
   tech,
   type,
+  inProgress,
 }) => {
   useEffect(() => {
     const body = document.querySelector("body");
@@ -43,17 +44,23 @@ export const ProjectModal = ({
         onClick={(e) => e.stopPropagation()}
         className={styles.modalCard}
       >
-        {type === projectType.professional && (
+        {inProgress && (
+          <div title="Work in Progress" className={styles.projectWip}>
+            <MdConstruction />
+          </div>
+        )}
+
+        {!inProgress && type === projectType.professional && (
           <div title="Professional Project" className={styles.projectCrown}>
             <AiFillTag />
           </div>
         )}
-        {type === projectType.personal && (
+        {!inProgress && type === projectType.personal && (
           <div title="Personal Project" className={styles.projectStar}>
             <AiFillCrown />
           </div>
         )}
-        {type === projectType.openSource && (
+        {!inProgress && type === projectType.openSource && (
           <div title="Open Source Project" className={styles.projectOpenSource}>
             <AiFillStar />
           </div>

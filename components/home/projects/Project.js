@@ -3,6 +3,7 @@ import { useAnimation, useInView, motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { AiFillCrown, AiFillGithub, AiFillStar, AiFillTag, AiOutlineExport } from "react-icons/ai";
+import { MdConstruction } from "react-icons/md";
 import { ProjectModal } from "./ProjectModal";
 import styles from "./projects.module.scss";
 import { projectType } from "./Projects";
@@ -19,6 +20,7 @@ export const Project = ({
   code,
   tech,
   type,
+  inProgress,
 }) => {
   const [hovered, setHovered] = useState(false);
   const projectSlug = createProjectSlug(title);
@@ -84,17 +86,23 @@ export const Project = ({
             }}
           />
 
-          {type === projectType.professional && (
+          {inProgress && (
+            <div title="Work in Progress" className={styles.projectWip}>
+              <MdConstruction />
+            </div>
+          )}
+
+          {!inProgress && type === projectType.professional && (
             <div title="Professional Project" className={styles.projectCrown}>
               <AiFillTag />
             </div>
           )}
-          {type === projectType.personal && (
+          {!inProgress && type === projectType.personal && (
             <div title="Personal Project" className={styles.projectStar}>
               <AiFillCrown />
             </div>
           )}
-          {type === projectType.openSource && (
+          {!inProgress && type === projectType.openSource && (
             <div title="Open Source Project" className={styles.projectOpenSource}>
               <AiFillStar />
             </div>
@@ -137,6 +145,7 @@ export const Project = ({
         code={code}
         tech={tech}
         type={type}
+        inProgress={inProgress}
         projectSlug={projectSlug}
       />
     </>
