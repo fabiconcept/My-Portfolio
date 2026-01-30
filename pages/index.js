@@ -5,10 +5,10 @@ export default function home() {
   return (
     <>
       <Head>
-        <title>Favour Ajokubi | Full Stack Developer</title>
+        <title>Favour Ajokubi | Senior Software Developer</title>
         <meta
           name="description"
-          content="Favour Tochukwu Ajokubi is a full stack developer building scalable web, mobile, and blockchain applications across fintech, logistics, edtech, and public sector platforms."
+          content="Favour Tochukwu Ajokubi is a Senior Software developer building scalable web, mobile, and blockchain applications across fintech, logistics, edtech, and public sector platforms."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://fabiconcept.com" />
@@ -22,17 +22,17 @@ export default function home() {
 
         {/* Open Graph / Social Media */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Favour Ajokubi | Full Stack Developer" />
-        <meta property="og:description" content="Favour Tochukwu Ajokubi is a full stack developer building scalable web, mobile, and blockchain applications across fintech, logistics, edtech, and public sector platforms." />
+        <meta property="og:title" content="Favour Ajokubi | Senior Software Developer" />
+        <meta property="og:description" content="Favour Tochukwu Ajokubi is a Senior Software developer building scalable web, mobile, and blockchain applications across fintech, logistics, edtech, and public sector platforms." />
         <meta property="og:image" content="/og-image.jpg" />
         <meta property="og:url" content="https://fabiconcept.com" />
-        <meta property="og:site_name" content="Favour Ajokubi | Full Stack Developer" />
+        <meta property="og:site_name" content="Favour Ajokubi | Senior Software Developer" />
         <meta property="og:logo" content="/logo.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Favour Ajokubi | Full Stack Developer" />
-        <meta name="twitter:description" content="Favour Tochukwu Ajokubi is a full stack developer building scalable web, mobile, and blockchain applications across fintech, logistics, edtech, and public sector platforms." />
+        <meta name="twitter:title" content="Favour Ajokubi | Senior Software Developer" />
+        <meta name="twitter:description" content="Favour Tochukwu Ajokubi is a Senior Software developer building scalable web, mobile, and blockchain applications across fintech, logistics, edtech, and public sector platforms." />
         <meta name="twitter:image" content="/og-image.jpg" />
       </Head>
       <Home />

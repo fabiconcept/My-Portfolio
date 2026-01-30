@@ -13,7 +13,7 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              I build digital products that scale. I am Favour Tochukwu Ajokubi, a full stack developer working across frontend, backend, mobile, and blockchain.
+              I build digital products that scale. I am Favour Tochukwu Ajokubi, a Senior Software developer working across frontend, backend, mobile, and blockchain.
             </p>
           </Reveal>
           <Reveal>
