@@ -58,7 +58,7 @@ export const MyProjects = [
   {
     title: "SayIt Wiki",
     type: projectType.personal,
-    inProgress: true,
+    // inProgress: true,
     imgSrc: "https://pickholder.sirv.com/Images/say-it-wiki.png",
     code: "https://github.com/fabiconcept/sayit-wiki",
     projectLink: "https://sayit-wiki.vercel.app",

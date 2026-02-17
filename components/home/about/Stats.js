@@ -22,7 +22,8 @@ export const Stats = () => {
             <span>Use at work</span>
           </h4>
           <div className={styles.statGrid}>
-            <span className="chip">Docker <sup>*</sup></span>
+            <span className="chip">NestJS</span>
+            <span className="chip">Docker</span>
             <span className="chip">Railway</span>
             <span className="chip">AWS</span>
             <span className="chip">Web Socket</span>
@@ -72,6 +73,7 @@ export const Stats = () => {
             <span className="chip">Photoshop</span>
             <span className="chip">Netlify</span>
             <span className="chip">Firebase</span>
+            <span className="chip">v0.dev</span>
             <span className="chip">Da Vinci Resolve</span>
           </div>
         </div>
